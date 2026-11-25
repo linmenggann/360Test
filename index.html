@@ -1,0 +1,3702 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>360°醫學人生｜走進臺南，走進生活 — 奇美醫院教學部活動報名</title>
+  <meta name="description" content="奇美醫院教學部「360°醫學人生｜走進臺南，走進生活」二日走讀工作坊線上報名。結合飲食文化、社區照護與自我覺察，走訪府城街巷、傳統市場、百年廟宇、四草綠色隧道、菁寮老街與大崎聚落。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@500;600;700;900&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-paper: #FAF5EB;
+      --bg-paper-alt: #F3EBDC;
+      --bg-card: #FFFDF9;
+      --ink-deep: #0F3D4C;
+      --ink-teal: #185163;
+      --ink-body: #2B383B;
+      --ink-muted: #5C6B6E;
+      --terracotta: #B84A32;
+      --terracotta-dark: #943621;
+      --terracotta-soft: #F7E5DF;
+      --crimson-kueh: #AD3B3B;
+      --mangrove: #37694F;
+      --mangrove-soft: #E1EFE6;
+      --harvest-gold: #C48A2C;
+      --harvest-soft: #F9EFD8;
+      --harbor-blue: #2D5F7C;
+      --harbor-soft: #E0ECF3;
+      --insurance-bg: #F5F7F2;
+      --insurance-border: #8AA899;
+      --border-subtle: rgba(15, 61, 76, 0.12);
+      --border-warm: rgba(184, 74, 50, 0.24);
+      --shadow-soft: 0 10px 30px rgba(15, 61, 76, 0.07);
+      --shadow-elevated: 0 18px 44px rgba(15, 61, 76, 0.12);
+      --radius-sm: 10px;
+      --radius-md: 16px;
+      --radius-lg: 24px;
+      --font-serif: "Noto Serif TC", "PMingLiU", "Songti TC", Georgia, serif;
+      --font-sans: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 86px;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background-color: var(--bg-paper);
+      color: var(--ink-body);
+      line-height: 1.7;
+      overflow-x: hidden;
+      position: relative;
+      background-image:
+        radial-gradient(circle at 12% 8%, rgba(196, 138, 44, 0.09), transparent 36%),
+        radial-gradient(circle at 88% 16%, rgba(55, 105, 79, 0.08), transparent 38%),
+        radial-gradient(circle at 50% 62%, rgba(184, 74, 50, 0.06), transparent 45%);
+    }
+
+    /* Subtle handmade paper texture overlay */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 9999;
+      opacity: 0.26;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.14'/%3E%3C/svg%3E");
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .container {
+      width: min(1200px, 92vw);
+      margin: 0 auto;
+    }
+
+    /* ==================== HEADER / NAVBAR ==================== */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(250, 245, 235, 0.9);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border-subtle);
+      transition: box-shadow 0.3s ease;
+    }
+
+    .site-header.scrolled {
+      box-shadow: 0 6px 24px rgba(15, 61, 76, 0.09);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      min-height: 74px;
+      padding: 10px 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .brand-emblem {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--ink-deep), var(--ink-teal));
+      color: #FAF5EB;
+      display: grid;
+      place-items: center;
+      font-family: var(--font-serif);
+      font-weight: 900;
+      font-size: 0.88rem;
+      letter-spacing: -0.02em;
+      flex-shrink: 0;
+      box-shadow: 0 4px 12px rgba(15, 61, 76, 0.22);
+      border: 2px solid rgba(196, 138, 44, 0.45);
+    }
+
+    .brand-text {
+      min-width: 0;
+    }
+
+    .brand-org {
+      display: block;
+      font-size: 0.73rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      color: var(--terracotta);
+    }
+
+    .brand-title {
+      font-family: var(--font-serif);
+      font-size: clamp(0.98rem, 1.5vw, 1.18rem);
+      font-weight: 700;
+      color: var(--ink-deep);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      font-size: 0.93rem;
+      font-weight: 500;
+      color: var(--ink-body);
+    }
+
+    .nav-links a {
+      position: relative;
+      padding: 4px 0;
+      transition: color 0.2s ease;
+    }
+
+    .nav-links a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -2px;
+      width: 0;
+      height: 2px;
+      background: var(--terracotta);
+      transition: width 0.25s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--terracotta);
+    }
+
+    .nav-links a:hover::after {
+      width: 100%;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 10px 18px;
+      border-radius: 999px;
+      font-family: var(--font-sans);
+      font-size: 0.92rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+      border: 1.5px solid transparent;
+      white-space: nowrap;
+    }
+
+    .btn svg {
+      width: 17px;
+      height: 17px;
+      flex-shrink: 0;
+    }
+
+    .btn-download {
+      background: #FFFDF9;
+      color: var(--terracotta);
+      border-color: var(--terracotta);
+      box-shadow: 0 3px 10px rgba(184, 74, 50, 0.12);
+    }
+
+    .btn-download:hover {
+      background: var(--terracotta);
+      color: #FFFDF9;
+      transform: translateY(-1.5px);
+      box-shadow: 0 8px 18px rgba(184, 74, 50, 0.24);
+    }
+
+    .btn-primary {
+      background: var(--ink-deep);
+      color: #FFFDF9;
+      box-shadow: 0 6px 18px rgba(15, 61, 76, 0.22);
+    }
+
+    .btn-primary:hover {
+      background: var(--terracotta);
+      transform: translateY(-1.5px);
+      box-shadow: 0 10px 24px rgba(184, 74, 50, 0.28);
+    }
+
+    .mobile-menu-btn {
+      display: none;
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-card);
+      color: var(--ink-deep);
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .mobile-drawer {
+      display: none;
+      border-top: 1px solid var(--border-subtle);
+      background: var(--bg-card);
+      padding: 14px 4vw 18px;
+    }
+
+    .mobile-drawer.open {
+      display: block;
+    }
+
+    .mobile-drawer nav {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
+    .mobile-drawer nav a {
+      padding: 10px 12px;
+      border-radius: 10px;
+      background: var(--bg-paper);
+      font-size: 0.92rem;
+      font-weight: 600;
+      color: var(--ink-deep);
+      text-align: center;
+    }
+
+    /* ==================== HERO SECTION ==================== */
+    .hero {
+      position: relative;
+      padding: 44px 0 0;
+      overflow: hidden;
+    }
+
+    /* Subtle rotating Tainan Begonia window lattice watermark */
+    .begonia-watermark {
+      position: absolute;
+      top: -90px;
+      right: -90px;
+      width: 380px;
+      height: 380px;
+      opacity: 0.065;
+      pointer-events: none;
+      animation: slowSpin 95s linear infinite;
+    }
+
+    @keyframes slowSpin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.08fr 0.92fr;
+      gap: 38px;
+      align-items: center;
+    }
+
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(15, 61, 76, 0.08);
+      border: 1px solid rgba(15, 61, 76, 0.16);
+      color: var(--ink-deep);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      margin-bottom: 16px;
+    }
+
+    .eyebrow-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--terracotta);
+      animation: pulseDot 2.2s ease-in-out infinite;
+    }
+
+    @keyframes pulseDot {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.45); opacity: 0.55; }
+    }
+
+    .hero-title {
+      font-family: var(--font-serif);
+      color: var(--ink-deep);
+      font-weight: 900;
+      line-height: 1.22;
+      margin-bottom: 18px;
+    }
+
+    .hero-title .degree-line {
+      display: block;
+      font-size: clamp(2.2rem, 4.4vw, 3.55rem);
+      letter-spacing: 0.02em;
+    }
+
+    .hero-title .degree-accent {
+      color: var(--terracotta);
+    }
+
+    .hero-title .sub-line {
+      display: block;
+      font-size: clamp(1.55rem, 3vw, 2.35rem);
+      margin-top: 6px;
+      color: var(--ink-teal);
+    }
+
+    .hero-quote {
+      position: relative;
+      padding: 14px 18px;
+      margin: 18px 0 22px;
+      background: rgba(255, 253, 249, 0.78);
+      border-left: 4px solid var(--terracotta);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      font-size: 0.98rem;
+      color: var(--ink-body);
+      box-shadow: 0 4px 16px rgba(15, 61, 76, 0.05);
+    }
+
+    .hero-quote strong {
+      color: var(--ink-deep);
+      font-family: var(--font-serif);
+    }
+
+    /* Cohort pills matching Poster v5 */
+    .cohort-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 24px;
+    }
+
+    .cohort-pill {
+      padding: 9px 15px;
+      border-radius: 12px;
+      font-size: 0.86rem;
+      line-height: 1.35;
+      border: 1px solid rgba(15, 61, 76, 0.08);
+      transition: transform 0.22s ease, box-shadow 0.22s ease;
+      cursor: pointer;
+    }
+
+    .cohort-pill:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 14px rgba(15, 61, 76, 0.1);
+    }
+
+    .cohort-pill .c-label {
+      display: block;
+      font-size: 0.74rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      opacity: 0.85;
+    }
+
+    .cohort-pill .c-date {
+      font-family: var(--font-serif);
+      font-weight: 700;
+      font-size: 0.96rem;
+    }
+
+    .cohort-1 { background: #E3EAD6; color: #274730; }
+    .cohort-2 { background: #F5DFCE; color: #6B341C; }
+    .cohort-3 { background: #DCE7F0; color: #1B425B; }
+
+    .hero-cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .btn-lg {
+      padding: 13px 26px;
+      font-size: 1rem;
+    }
+
+    /* Hero Poster Visual Card */
+    .hero-visual-wrap {
+      position: relative;
+    }
+
+    .poster-frame {
+      position: relative;
+      background: var(--bg-card);
+      padding: 12px;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-elevated);
+      border: 1px solid rgba(184, 74, 50, 0.2);
+      transform: rotate(0.6deg);
+      transition: transform 0.4s ease;
+    }
+
+    .poster-frame:hover {
+      transform: rotate(0deg) translateY(-3px);
+    }
+
+    .poster-frame img {
+      border-radius: 16px;
+      width: 100%;
+      height: auto;
+      cursor: zoom-in;
+    }
+
+    .poster-caption {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 6px 2px;
+      font-size: 0.8rem;
+      color: var(--ink-muted);
+    }
+
+    .floating-seal {
+      position: absolute;
+      top: -16px;
+      left: -16px;
+      background: var(--crimson-kueh);
+      color: #FFFDF9;
+      padding: 10px 14px;
+      border-radius: 12px;
+      font-family: var(--font-serif);
+      font-weight: 700;
+      font-size: 0.82rem;
+      line-height: 1.3;
+      letter-spacing: 0.08em;
+      box-shadow: 0 8px 20px rgba(173, 59, 59, 0.32);
+      border: 1.5px dashed rgba(255, 253, 249, 0.55);
+      z-index: 3;
+      animation: gentleBob 4s ease-in-out infinite;
+    }
+
+    @keyframes gentleBob {
+      0%, 100% { transform: translateY(0) rotate(-3deg); }
+      50% { transform: translateY(-5px) rotate(-1deg); }
+    }
+
+    /* ==================== ANIMATED TAINAN PANORAMA SCENE ==================== */
+    .tainan-panorama {
+      position: relative;
+      margin-top: 34px;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+    }
+
+    .tainan-panorama svg {
+      width: 100%;
+      height: auto;
+      min-height: 150px;
+      display: block;
+    }
+
+    /* Dynamic SVG Animations */
+    .lantern-swing-a {
+      transform-box: fill-box;
+      transform-origin: top center;
+      animation: lanternSwing 3.8s ease-in-out infinite;
+    }
+
+    .lantern-swing-b {
+      transform-box: fill-box;
+      transform-origin: top center;
+      animation: lanternSwing 4.4s ease-in-out infinite reverse;
+    }
+
+    @keyframes lanternSwing {
+      0%, 100% { transform: rotate(-5deg); }
+      50% { transform: rotate(5deg); }
+    }
+
+    .raft-glide {
+      animation: raftMove 16s ease-in-out infinite;
+    }
+
+    @keyframes raftMove {
+      0%, 100% { transform: translateX(-18px) translateY(0px); }
+      50% { transform: translateX(26px) translateY(-2.5px); }
+    }
+
+    .water-wave-1 {
+      animation: waveShift 6s ease-in-out infinite;
+    }
+
+    .water-wave-2 {
+      animation: waveShift 8s ease-in-out infinite reverse;
+    }
+
+    @keyframes waveShift {
+      0%, 100% { transform: translateX(-10px); opacity: 0.55; }
+      50% { transform: translateX(10px); opacity: 0.9; }
+    }
+
+    .rice-stalk-sway {
+      transform-box: fill-box;
+      transform-origin: bottom center;
+      animation: riceSway 3.4s ease-in-out infinite;
+    }
+
+    .rice-stalk-sway-slow {
+      transform-box: fill-box;
+      transform-origin: bottom center;
+      animation: riceSway 4.2s ease-in-out infinite 0.7s;
+    }
+
+    @keyframes riceSway {
+      0%, 100% { transform: rotate(-4deg); }
+      50% { transform: rotate(5deg); }
+    }
+
+    .egret-fly {
+      animation: egretFloat 18s ease-in-out infinite;
+    }
+
+    @keyframes egretFloat {
+      0%, 100% { transform: translate(0, 0); }
+      50% { transform: translate(-45px, -8px); }
+    }
+
+    .sun-glow {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: sunBreath 5s ease-in-out infinite;
+    }
+
+    @keyframes sunBreath {
+      0%, 100% { transform: scale(1); opacity: 0.35; }
+      50% { transform: scale(1.12); opacity: 0.55; }
+    }
+
+    /* ==================== CULTURAL TICKER RIBBON ==================== */
+    .cultural-ticker {
+      background: var(--ink-deep);
+      color: #FAF5EB;
+      padding: 12px 0;
+      overflow: hidden;
+      border-top: 2px solid var(--harvest-gold);
+      border-bottom: 2px solid var(--harvest-gold);
+    }
+
+    .ticker-track {
+      display: flex;
+      width: max-content;
+      gap: 32px;
+      animation: marqueeScroll 38s linear infinite;
+    }
+
+    .cultural-ticker:hover .ticker-track {
+      animation-play-state: paused;
+    }
+
+    .ticker-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-family: var(--font-serif);
+      font-size: 0.92rem;
+      letter-spacing: 0.06em;
+      white-space: nowrap;
+    }
+
+    .ticker-star {
+      color: var(--harvest-gold);
+      font-size: 0.85rem;
+    }
+
+    @keyframes marqueeScroll {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+
+    /* ==================== COMMON SECTION STYLING ==================== */
+    .section {
+      padding: 78px 0;
+      position: relative;
+    }
+
+    .section-alt {
+      background: var(--bg-paper-alt);
+      border-top: 1px solid var(--border-subtle);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 760px;
+      margin: 0 auto 48px;
+    }
+
+    .section-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--terracotta);
+      font-weight: 700;
+      font-size: 0.84rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .section-tag::before,
+    .section-tag::after {
+      content: "";
+      width: 24px;
+      height: 1.5px;
+      background: var(--terracotta);
+      opacity: 0.6;
+    }
+
+    .section-title {
+      font-family: var(--font-serif);
+      font-size: clamp(1.7rem, 3vw, 2.35rem);
+      font-weight: 900;
+      color: var(--ink-deep);
+      line-height: 1.3;
+      margin-bottom: 14px;
+    }
+
+    .section-desc {
+      color: var(--ink-muted);
+      font-size: 1rem;
+    }
+
+    /* Scroll reveal */
+    .reveal {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity 0.65s ease, transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ==================== 3 CORE PILLARS + 360 COMPASS ==================== */
+    .pillars-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-bottom: 44px;
+    }
+
+    .pillar-card {
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      padding: 28px 24px;
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-soft);
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .pillar-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-elevated);
+    }
+
+    .pillar-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 5px;
+    }
+
+    .pillar-food::before { background: var(--terracotta); }
+    .pillar-care::before { background: var(--mangrove); }
+    .pillar-mind::before { background: var(--harbor-blue); }
+
+    .pillar-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: 16px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 18px;
+    }
+
+    .pillar-food .pillar-icon { background: var(--terracotta-soft); color: var(--terracotta); }
+    .pillar-care .pillar-icon { background: var(--mangrove-soft); color: var(--mangrove); }
+    .pillar-mind .pillar-icon { background: var(--harbor-soft); color: var(--harbor-blue); }
+
+    .pillar-card h3 {
+      font-family: var(--font-serif);
+      font-size: 1.32rem;
+      color: var(--ink-deep);
+      margin-bottom: 10px;
+    }
+
+    .pillar-card p {
+      font-size: 0.94rem;
+      color: var(--ink-muted);
+      margin-bottom: 14px;
+    }
+
+    .pillar-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .pillar-tags span {
+      font-size: 0.78rem;
+      padding: 3px 10px;
+      border-radius: 999px;
+      background: var(--bg-paper);
+      color: var(--ink-deep);
+      font-weight: 500;
+    }
+
+    /* 360 Interactive Compass Box */
+    .compass-showcase {
+      background: linear-gradient(135deg, #0F3D4C 0%, #174E5F 100%);
+      color: #FAF5EB;
+      border-radius: var(--radius-lg);
+      padding: 36px;
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      gap: 36px;
+      align-items: center;
+      box-shadow: var(--shadow-elevated);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .compass-wheel-wrap {
+      position: relative;
+      width: 260px;
+      height: 260px;
+      margin: 0 auto;
+    }
+
+    .compass-dial {
+      width: 100%;
+      height: 100%;
+    }
+
+    .compass-needle-group {
+      transform-origin: 130px 130px;
+      transition: transform 0.65s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .compass-node-btn {
+      position: absolute;
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(250, 245, 235, 0.35);
+      background: rgba(15, 61, 76, 0.88);
+      color: #FAF5EB;
+      font-size: 0.8rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.22s ease;
+    }
+
+    .compass-node-btn:hover,
+    .compass-node-btn.active {
+      background: var(--harvest-gold);
+      color: #0F3D4C;
+      border-color: var(--harvest-gold);
+      transform: scale(1.06);
+    }
+
+    .cn-top { top: -8px; left: 50%; transform: translateX(-50%); }
+    .cn-top:hover, .cn-top.active { transform: translateX(-50%) scale(1.06); }
+    .cn-right { right: -16px; top: 50%; transform: translateY(-50%); }
+    .cn-right:hover, .cn-right.active { transform: translateY(-50%) scale(1.06); }
+    .cn-bottom { bottom: -8px; left: 50%; transform: translateX(-50%); }
+    .cn-bottom:hover, .cn-bottom.active { transform: translateX(-50%) scale(1.06); }
+    .cn-left { left: -16px; top: 50%; transform: translateY(-50%); }
+    .cn-left:hover, .cn-left.active { transform: translateY(-50%) scale(1.06); }
+
+    .compass-detail-tag {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: rgba(196, 138, 44, 0.22);
+      color: #F6CD7B;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      margin-bottom: 10px;
+    }
+
+    .compass-detail h3 {
+      font-family: var(--font-serif);
+      font-size: 1.55rem;
+      margin-bottom: 10px;
+      color: #FFFDF9;
+    }
+
+    .compass-detail p {
+      color: rgba(250, 245, 235, 0.88);
+      font-size: 0.97rem;
+      margin-bottom: 18px;
+    }
+
+    .esg-mini-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(250, 245, 235, 0.16);
+      font-size: 0.83rem;
+    }
+
+    .esg-mini-item strong {
+      display: block;
+      color: #F6CD7B;
+      font-family: var(--font-serif);
+      margin-bottom: 2px;
+    }
+
+    /* ==================== 6 TAINAN CULTURAL ELEMENTS GRID ==================== */
+    .elements-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .element-card {
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-soft);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .element-card:hover {
+      border-color: var(--terracotta);
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-elevated);
+    }
+
+    .element-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 14px;
+    }
+
+    .element-badge {
+      font-size: 0.76rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      padding: 4px 10px;
+      border-radius: 6px;
+      background: var(--bg-paper-alt);
+      color: var(--terracotta);
+    }
+
+    .element-svg-icon {
+      width: 48px;
+      height: 48px;
+      transition: transform 0.4s ease;
+    }
+
+    .element-card:hover .element-svg-icon {
+      transform: scale(1.14) rotate(4deg);
+    }
+
+    /* Steam animation inside cuisine SVG */
+    .steam-line {
+      animation: steamRise 2.4s ease-in-out infinite;
+    }
+    .steam-line:nth-child(2) { animation-delay: 0.7s; }
+
+    @keyframes steamRise {
+      0%, 100% { transform: translateY(2px); opacity: 0.35; }
+      50% { transform: translateY(-4px); opacity: 0.95; }
+    }
+
+    .element-card h3 {
+      font-family: var(--font-serif);
+      font-size: 1.24rem;
+      color: var(--ink-deep);
+      margin-bottom: 8px;
+    }
+
+    .element-card p {
+      font-size: 0.92rem;
+      color: var(--ink-muted);
+      margin-bottom: 16px;
+    }
+
+    .medical-lens {
+      background: var(--bg-paper);
+      border-left: 3px solid var(--mangrove);
+      padding: 10px 12px;
+      border-radius: 0 8px 8px 0;
+      font-size: 0.83rem;
+      color: var(--ink-body);
+    }
+
+    .medical-lens strong {
+      color: var(--mangrove);
+      display: block;
+      font-size: 0.77rem;
+      letter-spacing: 0.05em;
+      margin-bottom: 2px;
+    }
+
+    /* ==================== INTERACTIVE ITINERARY SECTION ==================== */
+    .day-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      margin-bottom: 34px;
+      flex-wrap: wrap;
+    }
+
+    .day-tab-btn {
+      padding: 14px 28px;
+      border-radius: 16px;
+      border: 1.5px solid var(--border-subtle);
+      background: var(--bg-card);
+      color: var(--ink-body);
+      cursor: pointer;
+      text-align: left;
+      transition: all 0.25s ease;
+      min-width: 260px;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .day-tab-btn .d-num {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      color: var(--terracotta);
+    }
+
+    .day-tab-btn .d-title {
+      font-family: var(--font-serif);
+      font-size: 1.12rem;
+      font-weight: 700;
+      color: var(--ink-deep);
+    }
+
+    .day-tab-btn.active {
+      background: var(--ink-deep);
+      border-color: var(--ink-deep);
+      color: #FFFDF9;
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px rgba(15, 61, 76, 0.22);
+    }
+
+    .day-tab-btn.active .d-num {
+      color: #F6CD7B;
+    }
+
+    .day-tab-btn.active .d-title {
+      color: #FFFDF9;
+    }
+
+    .day-panel {
+      display: none;
+      animation: fadeSlide 0.4s ease;
+    }
+
+    .day-panel.active {
+      display: block;
+    }
+
+    @keyframes fadeSlide {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .timeline {
+      position: relative;
+      max-width: 920px;
+      margin: 0 auto;
+      padding-left: 28px;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 7px;
+      top: 12px;
+      bottom: 12px;
+      width: 2px;
+      background: linear-gradient(to bottom, var(--terracotta), var(--mangrove), var(--harvest-gold));
+    }
+
+    .tl-item {
+      position: relative;
+      margin-bottom: 20px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      padding: 20px 24px;
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-soft);
+      transition: transform 0.25s ease;
+    }
+
+    .tl-item:hover {
+      transform: translateX(4px);
+      border-color: var(--border-warm);
+    }
+
+    .tl-item::before {
+      content: "";
+      position: absolute;
+      left: -27px;
+      top: 24px;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--bg-card);
+      border: 3.5px solid var(--terracotta);
+      box-shadow: 0 0 0 4px var(--bg-paper);
+    }
+
+    .tl-item.highlight::before {
+      background: var(--terracotta);
+    }
+
+    .tl-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 12px;
+      margin-bottom: 6px;
+    }
+
+    .tl-time {
+      font-family: var(--font-serif);
+      font-weight: 700;
+      font-size: 0.92rem;
+      color: var(--terracotta);
+      background: var(--terracotta-soft);
+      padding: 2px 10px;
+      border-radius: 999px;
+    }
+
+    .tl-title {
+      font-family: var(--font-serif);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--ink-deep);
+    }
+
+    .tl-desc {
+      font-size: 0.93rem;
+      color: var(--ink-muted);
+    }
+
+    /* Interactive 10-Stop Walking Tour Route Box */
+    .walk-route-box {
+      margin-top: 14px;
+      padding: 16px;
+      border-radius: 12px;
+      background: var(--bg-paper);
+      border: 1px dashed var(--border-warm);
+    }
+
+    .walk-route-title {
+      font-size: 0.84rem;
+      font-weight: 700;
+      color: var(--ink-deep);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .route-stops {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .route-stop-chip {
+      padding: 5px 11px;
+      border-radius: 999px;
+      font-size: 0.81rem;
+      font-weight: 600;
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      color: var(--ink-body);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .route-stop-chip:hover,
+    .route-stop-chip.active {
+      background: var(--terracotta);
+      color: #FFFDF9;
+      border-color: var(--terracotta);
+      transform: translateY(-1px);
+    }
+
+    .route-arrow {
+      color: var(--terracotta);
+      font-size: 0.8rem;
+      opacity: 0.7;
+    }
+
+    .route-spotlight {
+      margin-top: 12px;
+      padding: 10px 14px;
+      border-radius: 8px;
+      background: var(--bg-card);
+      font-size: 0.86rem;
+      color: var(--ink-body);
+      border-left: 3px solid var(--harvest-gold);
+    }
+
+    /* ==================== EVENT PRACTICAL INFO ==================== */
+    .info-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+
+    .info-card {
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      padding: 22px 20px;
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .info-card-label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--terracotta);
+      letter-spacing: 0.06em;
+      margin-bottom: 10px;
+    }
+
+    .info-card h4 {
+      font-family: var(--font-serif);
+      font-size: 1.08rem;
+      color: var(--ink-deep);
+      margin-bottom: 6px;
+    }
+
+    .info-card p {
+      font-size: 0.9rem;
+      color: var(--ink-muted);
+      line-height: 1.6;
+    }
+
+    /* ==================== REGISTRATION & QUOTA SECTION ==================== */
+    .reg-layout {
+      display: grid;
+      grid-template-columns: 380px 1fr;
+      gap: 30px;
+      align-items: start;
+    }
+
+    .quota-panel {
+      position: sticky;
+      top: 96px;
+      background: var(--bg-card);
+      border-radius: var(--radius-lg);
+      padding: 26px;
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-elevated);
+    }
+
+    .quota-panel-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+
+    .live-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.76rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--mangrove-soft);
+      color: var(--mangrove);
+    }
+
+    .live-badge::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--mangrove);
+      animation: pulseDot 1.8s infinite;
+    }
+
+    .quota-panel h3 {
+      font-family: var(--font-serif);
+      font-size: 1.3rem;
+      color: var(--ink-deep);
+    }
+
+    .quota-cohort-note {
+      font-size: 0.85rem;
+      color: var(--ink-muted);
+      margin-bottom: 18px;
+      padding-bottom: 12px;
+      border-bottom: 1px dashed var(--border-subtle);
+    }
+
+    .quota-cohort-note strong {
+      color: var(--terracotta);
+    }
+
+    .quota-list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+
+    .quota-item {
+      padding: 13px 15px;
+      border-radius: 12px;
+      background: var(--bg-paper);
+      border: 1.5px solid transparent;
+      cursor: pointer;
+      transition: all 0.22s ease;
+    }
+
+    .quota-item:hover {
+      border-color: var(--ink-teal);
+    }
+
+    .quota-item.selected {
+      border-color: var(--terracotta);
+      background: #FFF9F6;
+    }
+
+    .quota-item.full {
+      opacity: 0.62;
+      cursor: not-allowed;
+    }
+
+    .quota-row-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 6px;
+    }
+
+    .quota-role-name {
+      font-weight: 700;
+      color: var(--ink-deep);
+      font-size: 0.96rem;
+    }
+
+    .quota-numbers {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--mangrove);
+    }
+
+    .quota-item.low .quota-numbers {
+      color: var(--terracotta);
+    }
+
+    .quota-item.full .quota-numbers {
+      color: var(--crimson-kueh);
+    }
+
+    .quota-bar {
+      height: 7px;
+      border-radius: 999px;
+      background: rgba(15, 61, 76, 0.1);
+      overflow: hidden;
+    }
+
+    .quota-bar-fill {
+      height: 100%;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--mangrove), #579473);
+      transition: width 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .quota-item.low .quota-bar-fill {
+      background: linear-gradient(90deg, var(--harvest-gold), var(--terracotta));
+    }
+
+    .quota-item.full .quota-bar-fill {
+      background: var(--crimson-kueh);
+    }
+
+    .quota-summary-total {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 14px;
+      border-radius: 10px;
+      background: var(--ink-deep);
+      color: #FAF5EB;
+      font-size: 0.88rem;
+    }
+
+    .quota-summary-total strong {
+      font-family: var(--font-serif);
+      font-size: 1.1rem;
+      color: #F6CD7B;
+    }
+
+    /* Registration Form Card */
+    .form-card {
+      background: var(--bg-card);
+      border-radius: var(--radius-lg);
+      padding: 34px;
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-elevated);
+    }
+
+    .form-block {
+      margin-bottom: 28px;
+    }
+
+    .form-block-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: var(--font-serif);
+      font-size: 1.18rem;
+      font-weight: 700;
+      color: var(--ink-deep);
+      margin-bottom: 16px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .step-num {
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: var(--ink-deep);
+      color: #FFFDF9;
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      font-weight: 700;
+      display: inline-grid;
+      place-items: center;
+    }
+
+    /* Cohort Selector Radio Cards */
+    .session-radio-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .session-option input {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .session-card-label {
+      display: block;
+      padding: 14px;
+      border-radius: 12px;
+      border: 1.5px solid var(--border-subtle);
+      background: var(--bg-paper);
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-align: center;
+    }
+
+    .session-card-label .s-name {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--terracotta);
+      margin-bottom: 3px;
+    }
+
+    .session-card-label .s-date {
+      display: block;
+      font-family: var(--font-serif);
+      font-weight: 700;
+      font-size: 0.94rem;
+      color: var(--ink-deep);
+    }
+
+    .session-card-label .s-rem {
+      display: inline-block;
+      margin-top: 6px;
+      font-size: 0.75rem;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: rgba(55, 105, 79, 0.12);
+      color: var(--mangrove);
+      font-weight: 600;
+    }
+
+    .session-option input:checked + .session-card-label {
+      border-color: var(--terracotta);
+      background: #FFF7F4;
+      box-shadow: 0 0 0 3px rgba(184, 74, 50, 0.14);
+    }
+
+    /* Form Fields Grid */
+    .fields-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    .field-full {
+      grid-column: 1 / -1;
+    }
+
+    .field-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .field-label {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--ink-deep);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+    }
+
+    .req-star {
+      color: var(--crimson-kueh);
+      margin-left: 3px;
+    }
+
+    .field-hint {
+      font-size: 0.78rem;
+      font-weight: 400;
+      color: var(--ink-muted);
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 12px 14px;
+      border-radius: 10px;
+      border: 1.5px solid rgba(15, 61, 76, 0.2);
+      background: #FFFFFF;
+      color: var(--ink-body);
+      font-family: var(--font-sans);
+      font-size: 1rem;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .form-control:focus {
+      outline: none;
+      border-color: var(--ink-teal);
+      box-shadow: 0 0 0 3.5px rgba(24, 81, 99, 0.14);
+    }
+
+    .form-control.invalid {
+      border-color: var(--crimson-kueh);
+      background: #FFF9F9;
+    }
+
+    .error-msg {
+      font-size: 0.79rem;
+      color: var(--crimson-kueh);
+      min-height: 18px;
+      display: none;
+    }
+
+    .field-group.has-error .error-msg {
+      display: block;
+    }
+
+    /* Meal Radio Cards */
+    .meal-options {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+
+    .meal-option {
+      position: relative;
+    }
+
+    .meal-option input {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .meal-card {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 16px;
+      border-radius: 10px;
+      border: 1.5px solid rgba(15, 61, 76, 0.2);
+      background: #FFFFFF;
+      cursor: pointer;
+      font-weight: 600;
+      color: var(--ink-deep);
+      transition: all 0.2s ease;
+    }
+
+    .meal-option input:checked + .meal-card {
+      border-color: var(--mangrove);
+      background: var(--mangrove-soft);
+      color: var(--mangrove);
+      box-shadow: 0 0 0 3px rgba(55, 105, 79, 0.14);
+    }
+
+    /* ==================== DEDICATED TRAVEL INSURANCE BLOCK ==================== */
+    .insurance-zone {
+      background: var(--insurance-bg);
+      border: 1.5px solid var(--insurance-border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin-bottom: 26px;
+      position: relative;
+    }
+
+    .insurance-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+
+    .insurance-title-wrap {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .shield-icon {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      background: var(--mangrove);
+      color: #FFFDF9;
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+    }
+
+    .insurance-title-wrap h4 {
+      font-family: var(--font-serif);
+      font-size: 1.12rem;
+      color: var(--ink-deep);
+    }
+
+    .insurance-tag {
+      font-size: 0.76rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #FFFFFF;
+      color: var(--mangrove);
+      border: 1px solid var(--insurance-border);
+    }
+
+    .insurance-notice {
+      font-size: 0.85rem;
+      color: #3D5348;
+      margin-bottom: 18px;
+      line-height: 1.55;
+      background: rgba(255, 255, 255, 0.72);
+      padding: 10px 14px;
+      border-radius: 8px;
+    }
+
+    .id-input-wrap {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .id-input-wrap .form-control {
+      padding-right: 46px;
+      letter-spacing: 0.06em;
+    }
+
+    .toggle-mask-btn {
+      position: absolute;
+      right: 10px;
+      background: none;
+      border: none;
+      color: var(--ink-muted);
+      cursor: pointer;
+      padding: 4px;
+      display: grid;
+      place-items: center;
+    }
+
+    .toggle-mask-btn:hover {
+      color: var(--ink-deep);
+    }
+
+    .roc-date-hint {
+      font-size: 0.79rem;
+      color: var(--mangrove);
+      font-weight: 600;
+      min-height: 18px;
+    }
+
+    .submit-btn {
+      width: 100%;
+      padding: 16px 24px;
+      font-size: 1.06rem;
+      border-radius: 14px;
+      background: linear-gradient(135deg, var(--ink-deep), var(--ink-teal));
+      color: #FFFDF9;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      box-shadow: 0 10px 26px rgba(15, 61, 76, 0.24);
+      transition: all 0.25s ease;
+    }
+
+    .submit-btn:hover {
+      background: linear-gradient(135deg, var(--terracotta), var(--terracotta-dark));
+      transform: translateY(-2px);
+      box-shadow: 0 14px 30px rgba(184, 74, 50, 0.3);
+    }
+
+    /* ==================== FOOTER ==================== */
+    .site-footer {
+      background: var(--ink-deep);
+      color: rgba(250, 245, 235, 0.86);
+      padding: 52px 0 32px;
+      border-top: 4px solid var(--harvest-gold);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr 1fr;
+      gap: 32px;
+      padding-bottom: 30px;
+      border-bottom: 1px solid rgba(250, 245, 235, 0.14);
+    }
+
+    .footer-title {
+      font-family: var(--font-serif);
+      font-size: 1.25rem;
+      color: #FFFDF9;
+      margin-bottom: 10px;
+    }
+
+    .footer-col h4 {
+      font-family: var(--font-serif);
+      color: #F6CD7B;
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+
+    .footer-col p, .footer-col li {
+      font-size: 0.89rem;
+      line-height: 1.8;
+      list-style: none;
+    }
+
+    .footer-bottom {
+      padding-top: 22px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.82rem;
+      color: rgba(250, 245, 235, 0.65);
+    }
+
+    .admin-trigger-btn {
+      background: rgba(250, 245, 235, 0.1);
+      border: 1px solid rgba(250, 245, 235, 0.22);
+      color: #FAF5EB;
+      padding: 6px 13px;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    .admin-trigger-btn:hover {
+      background: rgba(250, 245, 235, 0.2);
+    }
+
+    /* ==================== MODALS (CONFIRMATION, ADMIN, LIGHTBOX) ==================== */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(10, 32, 40, 0.68);
+      backdrop-filter: blur(6px);
+      z-index: 2000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .modal-backdrop.open {
+      display: flex;
+    }
+
+    .modal-box {
+      background: var(--bg-card);
+      border-radius: var(--radius-lg);
+      max-width: 580px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 32px;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.3);
+      border: 1px solid var(--border-warm);
+      position: relative;
+      animation: modalPop 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .modal-wide {
+      max-width: 880px;
+    }
+
+    @keyframes modalPop {
+      from { opacity: 0; transform: scale(0.94) translateY(12px); }
+      to { opacity: 1; transform: scale(1) translateY(0); }
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 18px;
+      right: 18px;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-paper);
+      cursor: pointer;
+      font-size: 1.1rem;
+      color: var(--ink-deep);
+    }
+
+    .receipt-ticket {
+      background: var(--bg-paper);
+      border: 1.5px dashed var(--terracotta);
+      border-radius: 14px;
+      padding: 18px;
+      margin: 18px 0;
+      font-size: 0.9rem;
+    }
+
+    .receipt-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 6px 0;
+      border-bottom: 1px solid rgba(15, 61, 76, 0.08);
+      gap: 12px;
+    }
+
+    .receipt-row:last-child {
+      border-bottom: none;
+    }
+
+    .admin-table-wrap {
+      overflow-x: auto;
+      margin: 16px 0;
+    }
+
+    .admin-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.84rem;
+    }
+
+    .admin-table th, .admin-table td {
+      padding: 9px 10px;
+      border-bottom: 1px solid var(--border-subtle);
+      text-align: left;
+      white-space: nowrap;
+    }
+
+    .admin-table th {
+      background: var(--bg-paper);
+      color: var(--ink-deep);
+      font-weight: 700;
+    }
+
+    /* ==================== RESPONSIVE BREAKPOINTS ==================== */
+    @media (max-width: 1024px) {
+      .nav-links {
+        display: none;
+      }
+      .mobile-menu-btn {
+        display: inline-flex;
+      }
+      .hero-grid {
+        grid-template-columns: 1fr;
+      }
+      .poster-frame {
+        transform: none;
+        max-width: 680px;
+        margin: 0 auto;
+      }
+      .pillars-grid,
+      .elements-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .compass-showcase {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+      .info-cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .reg-layout {
+        grid-template-columns: 1fr;
+      }
+      .quota-panel {
+        position: static;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .header-inner {
+        min-height: 64px;
+      }
+      .brand-emblem {
+        width: 36px;
+        height: 36px;
+        font-size: 0.78rem;
+      }
+      .brand-title {
+        font-size: 0.92rem;
+      }
+      .header-actions .btn-primary {
+        display: none;
+      }
+      .btn-download {
+        padding: 8px 13px;
+        font-size: 0.84rem;
+      }
+      .section {
+        padding: 54px 0;
+      }
+      .pillars-grid,
+      .elements-grid,
+      .info-cards-grid,
+      .session-radio-grid,
+      .fields-grid,
+      .esg-mini-row,
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+      .form-card {
+        padding: 22px 18px;
+      }
+      .insurance-zone {
+        padding: 18px 15px;
+      }
+      .floating-seal {
+        top: -10px;
+        left: 8px;
+        font-size: 0.75rem;
+      }
+      .compass-showcase {
+        padding: 26px 18px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==================== STICKY HEADER ==================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="回到頁首">
+        <div class="brand-emblem">360°</div>
+        <div class="brand-text">
+          <span class="brand-org">奇美醫院教學部 CHIMEI MEDICAL EDUCATION</span>
+          <span class="brand-title">360°醫學人生｜走進臺南，走進生活</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" aria-label="主選單">
+        <a href="#philosophy">計畫核心</a>
+        <a href="#culture">府城六感</a>
+        <a href="#itinerary">二日走讀</a>
+        <a href="#info">活動資訊</a>
+        <a href="#register">線上報名</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- 表頭「下載行程」按鈕：直接下載 360°醫學人生｜走進臺南，走進生活⾏程v4.pdf -->
+        <a
+          id="headerDownloadBtn"
+          class="btn btn-download"
+          href="./360%C2%B0%E9%86%AB%E5%AD%B8%E4%BA%BA%E7%94%9F%EF%BD%9C%E8%B5%B0%E9%80%B2%E8%87%BA%E5%8D%97%EF%BC%8C%E8%B5%B0%E9%80%B2%E7%94%9F%E6%B4%BB%E2%BE%8F%E7%A8%8Bv4.pdf"
+          download="360°醫學人生｜走進臺南，走進生活⾏程v4.pdf"
+          title="點擊下載「360°醫學人生｜走進臺南，走進生活⾏程v4.pdf」"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          下載⾏程
+        </a>
+
+        <a href="#register" class="btn btn-primary">立即報名</a>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" type="button" aria-label="開啟導覽選單" aria-expanded="false">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+            <line x1="4" y1="7" x2="20" y2="7" />
+            <line x1="4" y1="12" x2="20" y2="12" />
+            <line x1="4" y1="17" x2="20" y2="17" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-drawer" id="mobileDrawer">
+      <nav aria-label="行動版選單">
+        <a href="#philosophy">計畫核心</a>
+        <a href="#culture">府城六感</a>
+        <a href="#itinerary">二日走讀</a>
+        <a href="#info">活動資訊</a>
+        <a href="#register" style="grid-column: 1 / -1; background: var(--ink-deep); color: #FFFDF9;">前往線上報名</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero" id="top">
+    <!-- Rotating Tainan Begonia Iron Window Lattice SVG Watermark -->
+    <svg class="begonia-watermark" viewBox="0 0 200 200" fill="none" stroke="#0F3D4C" stroke-width="1.6" aria-hidden="true">
+      <circle cx="100" cy="100" r="92" />
+      <circle cx="100" cy="100" r="68" stroke-dasharray="4 4" />
+      <path d="M100 16 C122 45, 155 78, 184 100 C155 122, 122 155, 100 184 C78 155, 45 122, 16 100 C45 78, 78 45, 100 16 Z" />
+      <circle cx="100" cy="60" r="22" />
+      <circle cx="100" cy="140" r="22" />
+      <circle cx="60" cy="100" r="22" />
+      <circle cx="140" cy="100" r="22" />
+      <rect x="76" y="76" width="48" height="48" transform="rotate(45 100 100)" />
+    </svg>
+
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-eyebrow">
+          <span class="eyebrow-dot"></span>
+          健康台灣深耕計畫｜照顧臺南人一輩子
+        </div>
+
+        <h1 class="hero-title">
+          <span class="degree-line"><span class="degree-accent">360°</span>醫學人生</span>
+          <span class="sub-line">走進臺南，走進生活</span>
+        </h1>
+
+        <p style="font-size: 1.03rem; color: var(--ink-muted);">
+          帶領 <strong>西醫UGY、西醫PGY、醫事職類PGY 及 臨床教師</strong> 走出白色巨塔、踏入府城街巷與嘉南平原——從飲食、信仰、市場與聚落，看見病人的真實日常，拓展全人照顧的視野。
+        </p>
+
+        <blockquote class="hero-quote">
+          「台南是一座嗜甜的城市，而台南人與甜牽絆絕對不只有『全糖』這麼簡單！苦的、鹹的、辣的、老派的……走出市區追尋源頭，<strong>理解疾病如何發生於日常生活之中</strong>。」
+        </blockquote>
+
+        <div class="cohort-pills" aria-label="活動三梯次日期">
+          <div class="cohort-pill cohort-1" data-pick-session="s1" title="點擊選擇第一梯次並前往報名">
+            <span class="c-label">第一梯次（二日）</span>
+            <span class="c-date">115/10/17(六)–10/18(日)</span>
+          </div>
+          <div class="cohort-pill cohort-2" data-pick-session="s2" title="點擊選擇第二梯次並前往報名">
+            <span class="c-label">第二梯次（二日）</span>
+            <span class="c-date">115/11/14(六)–11/15(日)</span>
+          </div>
+          <div class="cohort-pill cohort-3" data-pick-session="s3" title="點擊選擇第三梯次並前往報名">
+            <span class="c-label">第三梯次（二日）</span>
+            <span class="c-date">115/11/21(六)–11/22(日)</span>
+          </div>
+        </div>
+
+        <div class="hero-cta-row">
+          <a href="#register" class="btn btn-primary btn-lg">
+            立即線上報名
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </a>
+          <a href="#itinerary" class="btn btn-download btn-lg" style="border-color: var(--ink-deep); color: var(--ink-deep);">
+            探索二日走讀路線
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual-wrap">
+        <div class="floating-seal">臺南・一座讓人<br>更懂生活的城市</div>
+        <div class="poster-frame">
+          <img
+            id="posterImg"
+            src="./360%C2%B0%E9%86%AB%E5%AD%B8%E4%BA%BA%E7%94%9F%EF%BD%9C%E8%B5%B0%E9%80%B2%E8%87%BA%E5%8D%97%EF%BC%8C%E8%B5%B0%E9%80%B2%E7%94%9F%E6%B4%BBv5.png"
+            alt="360°醫學人生｜走進臺南，走進生活 主視覺海報"
+          />
+          <div class="poster-caption">
+            <span>奇美醫院教學部 × 島內散步 Walk in Taiwan</span>
+            <span>點擊海報可放大檢視 ↗</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== DYNAMIC ANIMATED TAINAN LANDSCAPE SVG ==================== -->
+    <div class="tainan-panorama" aria-hidden="true">
+      <svg viewBox="0 0 1440 210" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="skyWarm" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#FAF5EB" stop-opacity="0" />
+            <stop offset="100%" stop-color="#EFE2CA" stop-opacity="0.95" />
+          </linearGradient>
+          <linearGradient id="sicaoWater" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#2D5E4E" />
+            <stop offset="50%" stop-color="#3E7C63" />
+            <stop offset="100%" stop-color="#285446" />
+          </linearGradient>
+        </defs>
+
+        <rect width="1440" height="210" fill="url(#skyWarm)" />
+
+        <!-- Warm Tainan Setting Sun -->
+        <circle class="sun-glow" cx="1140" cy="68" r="46" fill="#E6A94E" opacity="0.4" />
+        <circle cx="1140" cy="68" r="28" fill="#DDA043" opacity="0.45" />
+
+        <!-- Gliding White Egrets over Chianan Plain -->
+        <g class="egret-fly" stroke="#0F3D4C" stroke-width="1.8" fill="none" opacity="0.55">
+          <path d="M920 48 Q928 40 936 47 Q944 40 952 48" />
+          <path d="M962 60 Q968 54 974 59 Q980 54 986 60" />
+        </g>
+
+        <!-- LEFT: Jingliao & Anping Red-Brick Shophouses (老街紅磚街屋) -->
+        <g transform="translate(30, 88)">
+          <rect x="0" y="34" width="95" height="88" fill="#B84A32" opacity="0.88" />
+          <polygon points="-8,34 48,8 104,34" fill="#8F331F" />
+          <rect x="18" y="54" width="22" height="34" rx="11" fill="#FAF5EB" opacity="0.85" />
+          <rect x="54" y="54" width="22" height="34" rx="11" fill="#FAF5EB" opacity="0.85" />
+          <rect x="98" y="44" width="84" height="78" fill="#C75B3E" opacity="0.9" />
+          <polygon points="92,44 140,20 188,44" fill="#9A3B26" />
+          <!-- Traditional vertical street signboard -->
+          <rect x="190" y="38" width="18" height="54" rx="3" fill="#EBD7B2" stroke="#8F331F" stroke-width="1.5" />
+          <circle cx="140" cy="68" r="12" fill="#EBD7B2" opacity="0.85" />
+        </g>
+
+        <!-- CENTER-LEFT: Fucheng Temple Swallowtail Roof (廟宇燕尾脊與祈福紅燈籠) -->
+        <g transform="translate(265, 58)">
+          <rect x="28" y="64" width="164" height="88" fill="#A63A2B" />
+          <rect x="52" y="82" width="26" height="70" fill="#0F3D4C" opacity="0.8" />
+          <rect x="97" y="78" width="26" height="74" fill="#0F3D4C" opacity="0.85" />
+          <rect x="142" y="82" width="26" height="70" fill="#0F3D4C" opacity="0.8" />
+          <!-- Curved Swallowtail Roof Ridge (燕尾脊) -->
+          <path d="M4 66 Q110 92 216 66 Q178 44 110 42 Q42 44 4 66 Z" fill="#C97A2B" />
+          <path d="M-8 46 Q55 76 110 34 Q165 76 228 46 Q175 62 110 52 Q45 62 -8 46 Z" fill="#0F3D4C" />
+          <!-- Gently Swaying Red Temple Lanterns -->
+          <g class="lantern-swing-a">
+            <line x1="42" y1="66" x2="42" y2="82" stroke="#F6CD7B" stroke-width="1.5" />
+            <ellipse cx="42" cy="91" rx="9" ry="11" fill="#D93829" />
+            <line x1="42" y1="102" x2="42" y2="110" stroke="#F6CD7B" stroke-width="1.5" />
+          </g>
+          <g class="lantern-swing-b">
+            <line x1="178" y1="66" x2="178" y2="82" stroke="#F6CD7B" stroke-width="1.5" />
+            <ellipse cx="178" cy="91" rx="9" ry="11" fill="#D93829" />
+            <line x1="178" y1="102" x2="178" y2="110" stroke="#F6CD7B" stroke-width="1.5" />
+          </g>
+        </g>
+
+        <!-- CENTER: Sicao Green Tunnel Mangrove Arch & Gliding Bamboo Raft (四草綠色隧道與竹筏) -->
+        <path d="M510 165 Q750 148 990 165 L990 210 L510 210 Z" fill="url(#sicaoWater)" />
+        <!-- Mangrove Canopy Arch ("Angel's Kiss") -->
+        <path d="M485 210 L485 118 Q560 55 735 72 Q650 112 560 168 Z" fill="#2F5E45" />
+        <path d="M995 210 L995 112 Q910 52 755 72 Q845 112 935 168 Z" fill="#3B7254" />
+        <circle cx="595" cy="92" r="34" fill="#468361" opacity="0.85" />
+        <circle cx="885" cy="90" r="36" fill="#468361" opacity="0.85" />
+        <circle cx="742" cy="74" r="26" fill="#53946F" opacity="0.78" />
+
+        <!-- Shimmering Water Ripples -->
+        <g class="water-wave-1" stroke="#B7E3CC" stroke-width="1.8" stroke-linecap="round">
+          <line x1="610" y1="182" x2="675" y2="182" />
+          <line x1="770" y1="194" x2="845" y2="194" />
+        </g>
+        <g class="water-wave-2" stroke="#F6CD7B" stroke-width="1.6" stroke-linecap="round">
+          <line x1="695" y1="188" x2="755" y2="188" />
+          <line x1="830" y1="178" x2="880" y2="178" />
+        </g>
+
+        <!-- Gliding Bamboo Raft with Hats (斗笠竹筏) -->
+        <g class="raft-glide" transform="translate(690, 152)">
+          <polygon points="0,20 105,20 94,30 12,30" fill="#C89347" />
+          <rect x="16" y="15" width="72" height="5" rx="2" fill="#8C5A2B" />
+          <!-- Passengers wearing traditional bamboo斗笠 -->
+          <polygon points="24,14 34,5 44,14" fill="#E8C98E" />
+          <polygon points="46,14 56,5 66,14" fill="#E8C98E" />
+          <polygon points="68,14 78,5 88,14" fill="#E8C98E" />
+          <line x1="90" y1="8" x2="108" y2="34" stroke="#6E441F" stroke-width="2" />
+        </g>
+
+        <!-- RIGHT: Houbi Golden Rice Fields & Daci Village Roofs (菁寮稻浪與大崎聚落古厝) -->
+        <path d="M975 210 Q1190 142 1440 164 L1440 210 Z" fill="#5D7F4E" />
+        <g transform="translate(1225, 108)">
+          <rect x="0" y="34" width="110" height="68" fill="#DFCEB4" />
+          <polygon points="-10,34 55,6 120,34" fill="#B84A32" />
+          <rect x="42" y="54" width="26" height="48" fill="#6E4730" />
+        </g>
+
+        <!-- Swaying Golden Rice Stalks -->
+        <g stroke="#DDA03A" stroke-width="2.4" stroke-linecap="round" fill="none">
+          <path class="rice-stalk-sway" d="M1030 210 Q1034 176 1048 158" />
+          <path class="rice-stalk-sway-slow" d="M1052 210 Q1058 172 1074 154" />
+          <path class="rice-stalk-sway" d="M1076 210 Q1080 178 1094 162" />
+          <path class="rice-stalk-sway-slow" d="M1102 210 Q1108 174 1124 156" />
+          <path class="rice-stalk-sway" d="M1130 210 Q1136 178 1150 160" />
+          <path class="rice-stalk-sway-slow" d="M1362 210 Q1368 175 1384 158" />
+          <path class="rice-stalk-sway" d="M1388 210 Q1394 172 1410 155" />
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ==================== SCROLLING TAINAN CULTURAL RIBBON ==================== -->
+  <div class="cultural-ticker" aria-label="活動走讀亮點關鍵字">
+    <div class="ticker-track">
+      <span class="ticker-item"><span class="ticker-star">✦</span> 鎮北坊文化街區散步學</span>
+      <span class="ticker-item"><span class="ticker-star">✦</span> 鴨母寮傳統市場庶民日常</span>
+      <span class="ticker-item"><span class="ticker-star">✦</span> 祀典興濟宮保生大帝醫神信仰</span>
+      <span class="ticker-item"><span class="ticker-star">✦</span> 舊來發百年餅舖限量糕餅</span>
+      <span class="ticker-item"><span class="ticker-star">✦</span> 府城食府古都手路菜饗宴</span>
+      <span class="ticker-item"><span class="ticker-star">✦</span> 四草綠色隧道竹筏巡河</span>
+      <span class="ticker-item"><span class="ticker-star">✦</span> 安平老街紅磚巷弄尋劍獅</span>
+      <span class="ticker-item"><span class="ticker-star">✦</span> 後壁菁寮百年碾米廠與手作紅龜粿</span>
+      <span class="ticker-item"><span class="ticker-star">✦</span> 俗女餐桌在地旬味百匯</span>
+      <span class="ticker-item"><span class="ticker-star">✦</span> 官田大崎聚落紅瓦綠蕨與古瓦再生</span>
+      <!-- Duplicate half for seamless loop -->
+      <span class="ticker-item"><span class="ticker-star">✦</span> 鎮北坊文化街區散步學</span>
+      <span class="ticker-item"><span class="ticker-star">✦</span> 鴨母寮傳統市場庶民日常</span>
+      <span class="ticker-item"><span class="ticker-star">✦</span> 祀典興濟宮保生大帝醫神信仰</span>
+      <span class="ticker-item"><span class="ticker-star">✦</span> 舊來發百年餅舖限量糕餅</span>
+      <span class="ticker-item"><span class="ticker-star">✦</span> 府城食府古都手路菜饗宴</span>
+      <span class="ticker-item"><span class="ticker-star">✦</span> 四草綠色隧道竹筏巡河</span>
+      <span class="ticker-item"><span class="ticker-star">✦</span> 安平老街紅磚巷弄尋劍獅</span>
+      <span class="ticker-item"><span class="ticker-star">✦</span> 後壁菁寮百年碾米廠與手作紅龜粿</span>
+      <span class="ticker-item"><span class="ticker-star">✦</span> 俗女餐桌在地旬味百匯</span>
+      <span class="ticker-item"><span class="ticker-star">✦</span> 官田大崎聚落紅瓦綠蕨與古瓦再生</span>
+    </div>
+  </div>
+
+  <!-- ==================== SECTION 1: PROGRAM PHILOSOPHY & 360 COMPASS ==================== -->
+  <section class="section" id="philosophy">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">PROGRAM VISION</div>
+        <h2 class="section-title">走出醫院圍牆，從臺南日常拓展照顧視野</h2>
+        <p class="section-desc">
+          呼應健康台灣深耕計畫（子計畫 D2-O1-5）並落實奇美醫院「照顧臺南人一輩子」之核心價值，本系列工作坊委由「島內散步 Walk in Taiwan」專業規劃，串聯三大教學軸線與 360° 醫學人生反思。
+        </p>
+      </div>
+
+      <div class="pillars-grid">
+        <article class="pillar-card pillar-food reveal">
+          <div class="pillar-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 11h18a8 8 0 0 1-8 8h-2a8 8 0 0 1-8-8Z" />
+              <path d="M7 7c0-1.5 1.5-2 1.5-3.5" />
+              <path d="M12 7c0-1.5 1.5-2 1.5-3.5" />
+              <path d="M17 7c0-1.5 1.5-2 1.5-3.5" />
+            </svg>
+          </div>
+          <h3>飲食文化 × 生活型態醫療</h3>
+          <p>
+            走讀街巷、傳統市場與米鄉聚落，從臺南多層次的「嗜甜」脈絡、手路菜與傳統米食，看見高血壓、高血糖、高血脂等慢性病背後的真實生活型態。
+          </p>
+          <div class="pillar-tags">
+            <span>鴨母寮市場</span>
+            <span>手作紅龜粿</span>
+            <span>三高生活型態</span>
+          </div>
+        </article>
+
+        <article class="pillar-card pillar-care reveal">
+          <div class="pillar-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+            </svg>
+          </div>
+          <h3>社區照護 × 跨職類合作</h3>
+          <p>
+            連結城區巷弄到鄉間聚落的生活情境、社區診所與社區藥局的連續性照護網絡，促進西醫 UGY、PGY、醫事職類 PGY 與臨床教師跨職類對話共學。
+          </p>
+          <div class="pillar-tags">
+            <span>全人照護視角</span>
+            <span>連續性照護</span>
+            <span>跨職類團隊</span>
+          </div>
+        </article>
+
+        <article class="pillar-card pillar-mind reveal">
+          <div class="pillar-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" />
+            </svg>
+          </div>
+          <h3>自我覺察 × 360°人生反思</h3>
+          <p>
+            在四草紅樹林自然律動與古厝工藝手作中沉澱身心，透過正念練習與 360° 醫學人生引導，重新校準專業、職涯、價值與醫療使命。
+          </p>
+          <div class="pillar-tags">
+            <span>正念覺察</span>
+            <span>永續旅行 ESG</span>
+            <span>醫療初心</span>
+          </div>
+        </article>
+      </div>
+
+      <!-- Interactive 360° Medical Life Compass -->
+      <div class="compass-showcase reveal">
+        <div class="compass-wheel-wrap">
+          <button type="button" class="compass-node-btn cn-top active" data-angle="0" data-key="profession">專業 Profession</button>
+          <button type="button" class="compass-node-btn cn-right" data-angle="90" data-key="career">職涯 Career</button>
+          <button type="button" class="compass-node-btn cn-bottom" data-angle="180" data-key="value">價值 Value</button>
+          <button type="button" class="compass-node-btn cn-left" data-angle="270" data-key="mission">使命 Mission</button>
+
+          <svg class="compass-dial" viewBox="0 0 260 260">
+            <circle cx="130" cy="130" r="98" fill="rgba(255,255,255,0.04)" stroke="rgba(246,205,123,0.45)" stroke-width="1.5" />
+            <circle cx="130" cy="130" r="78" fill="none" stroke="rgba(250,245,235,0.2)" stroke-dasharray="4 6" />
+            <line x1="130" y1="36" x2="130" y2="224" stroke="rgba(250,245,235,0.14)" />
+            <line x1="36" y1="130" x2="224" y2="130" stroke="rgba(250,245,235,0.14)" />
+            <g id="compassNeedle" class="compass-needle-group">
+              <polygon points="130,52 140,130 130,144 120,130" fill="#E59A3C" />
+              <polygon points="130,208 140,130 130,116 120,130" fill="rgba(250,245,235,0.38)" />
+              <circle cx="130" cy="130" r="10" fill="#FAF5EB" />
+              <circle cx="130" cy="130" r="4.5" fill="#B84A32" />
+            </g>
+          </svg>
+        </div>
+
+        <div class="compass-detail">
+          <span class="compass-detail-tag" id="compassTag">360° 羅盤向度 01｜PROFESSION</span>
+          <h3 id="compassTitle">專業（Profession）— 看見症狀背後的生活脈絡</h3>
+          <p id="compassText">
+            當衛教不再只是制式叮嚀「少糖少鹽」，而是理解阿公阿嬤清晨在鴨母寮市場買什麼菜、節慶為何一定要吃一口紅龜粿，臨床專業才能真正貼近病人的日常處境。
+          </p>
+
+          <div class="esg-mini-row">
+            <div class="esg-mini-item">
+              <strong>01 米食 × 文化</strong>
+              從產地碾米廠到祈願紅龜粿，感受食物轉化為祝福的生活智慧。
+            </div>
+            <div class="esg-mini-item">
+              <strong>02 城市 × 日常</strong>
+              深入赤崁樓旁鎮北坊，體驗不為觀光而存在的老派府城節奏。
+            </div>
+            <div class="esg-mini-item">
+              <strong>03 行動 × 永續</strong>
+              以低干擾濕地巡河與古瓦再生，建立人與土地的責任連結。
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 2: 6 TAINAN CULTURAL ELEMENTS ==================== -->
+  <section class="section section-alt" id="culture">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">FUCHENG SIX ELEMENTS</div>
+        <h2 class="section-title">府城六感圖鑑｜街巷・市場・廟宇・飲食・聚落・土地</h2>
+        <p class="section-desc">
+          打開五感與文化覺察力，在臺南的紅磚地磚、廟埕香火與平原稻浪之間，讀懂這座城市與人們的生命故事。
+        </p>
+      </div>
+
+      <div class="elements-grid">
+        <!-- 1. 府城街巷 -->
+        <article class="element-card reveal">
+          <div>
+            <div class="element-top">
+              <span class="element-badge">01｜府城街巷</span>
+              <svg class="element-svg-icon" viewBox="0 0 48 48" fill="none" stroke="#B84A32" stroke-width="2">
+                <rect x="6" y="10" width="36" height="28" rx="4" fill="#F7E5DF" />
+                <line x1="6" y1="20" x2="42" y2="20" />
+                <line x1="6" y1="29" x2="42" y2="29" />
+                <line x1="18" y1="10" x2="18" y2="20" />
+                <line x1="30" y1="20" x2="30" y2="29" />
+                <line x1="20" y1="29" x2="20" y2="38" />
+              </svg>
+            </div>
+            <h3>磚瓦巷弄與「臺南散步學」</h3>
+            <p>
+              為什麼老房子被砍了一半？為什麼清代花園「吳園」旁冒出日治建築與百貨？柏油路走到一半變成特殊磚瓦地磚？在鎮北坊與延平街尋找劍獅與歷史線索。
+            </p>
+          </div>
+          <div class="medical-lens">
+            <strong>🩺 醫學人文視角</strong>
+            訓練臨床觀察力——如同問診時捕捉微小生活線索，理解高齡長輩居住的老屋動線與社區環境。
+          </div>
+        </article>
+
+        <!-- 2. 傳統市場 -->
+        <article class="element-card reveal">
+          <div>
+            <div class="element-top">
+              <span class="element-badge">02｜傳統市場</span>
+              <svg class="element-svg-icon" viewBox="0 0 48 48" fill="none" stroke="#C48A2C" stroke-width="2">
+                <path d="M8 18 L40 18 L36 38 L12 38 Z" fill="#F9EFD8" />
+                <path d="M16 18 C16 10, 32 10, 32 18" />
+                <circle cx="20" cy="27" r="4" fill="#DDA043" />
+                <circle cx="29" cy="29" r="3.5" fill="#B84A32" />
+              </svg>
+            </div>
+            <h3>鴨母寮市場與北忠街日常</h3>
+            <p>
+              走進府城人私藏的「鴨母寮市場」與北忠街沿線老店，在攤商吆喝聲與當令鮮食之間，揭開臺南人一日三餐最真實的採買現場與人情互動。
+            </p>
+          </div>
+          <div class="medical-lens">
+            <strong>🩺 醫學人文視角</strong>
+            認識在地家庭餐桌的食材原型與烹調習慣，讓營養與慢性病衛教真正說進病人的生活語言裡。
+          </div>
+        </article>
+
+        <!-- 3. 廟宇與信仰 -->
+        <article class="element-card reveal">
+          <div>
+            <div class="element-top">
+              <span class="element-badge">03｜廟宇與信仰</span>
+              <svg class="element-svg-icon" viewBox="0 0 48 48" fill="none" stroke="#AD3B3B" stroke-width="2">
+                <path d="M6 20 Q24 8 42 20" stroke-width="2.6" />
+                <ellipse class="lantern-swing-a" cx="24" cy="29" rx="9" ry="11" fill="#F7E5DF" />
+                <line x1="24" y1="15" x2="24" y2="18" />
+                <line x1="24" y1="40" x2="24" y2="44" />
+              </svg>
+            </div>
+            <h3>眾神之都的百變個性</h3>
+            <p>
+              巡禮開基靈祐宮、大觀音亭暨祀典興濟宮、開基玉皇宮、三老爺宮、首邑縣城隍廟與開基天后祖廟，聆聽府城眾神充滿個性的守護故事。
+            </p>
+          </div>
+          <div class="medical-lens">
+            <strong>🩺 醫學人文視角</strong>
+            從保生大帝傳統藥籤文化到廟埕信仰支持系統，理解宗教信仰如何安定病患與家屬面對病痛的焦慮。
+          </div>
+        </article>
+
+        <!-- 4. 飲食與嗜甜 -->
+        <article class="element-card reveal">
+          <div>
+            <div class="element-top">
+              <span class="element-badge">04｜飲食與百味</span>
+              <svg class="element-svg-icon" viewBox="0 0 48 48" fill="none" stroke="#B84A32" stroke-width="2">
+                <path class="steam-line" d="M18 15 Q20 10 18 6" />
+                <path class="steam-line" d="M28 15 Q30 10 28 6" />
+                <path d="M9 22 H39 A15 15 0 0 1 9 22 Z" fill="#F7E5DF" />
+                <line x1="17" y1="39" x2="31" y2="39" />
+              </svg>
+            </div>
+            <h3>手路菜、糕餅與甜味宇宙</h3>
+            <p>
+              從舊來發餅舖、府城食府阿舍手路菜（翡翠蚵羹、魷魚螺肉蒜、擔仔麵、虱目魚），到後壁親手揉製紅龜粿與俗女餐桌，品味多層次的臺南甜。
+            </p>
+          </div>
+          <div class="medical-lens">
+            <strong>🩺 醫學人文視角</strong>
+            體會飲食承載的記憶與社交意義，在尊重文化情感的前提下，與病人共同設計可持續的飲食調整方案。
+          </div>
+        </article>
+
+        <!-- 5. 百年聚落 -->
+        <article class="element-card reveal">
+          <div>
+            <div class="element-top">
+              <span class="element-badge">05｜百年聚落</span>
+              <svg class="element-svg-icon" viewBox="0 0 48 48" fill="none" stroke="#185163" stroke-width="2">
+                <polygon points="8,24 24,11 40,24" fill="#E0ECF3" />
+                <rect x="12" y="24" width="24" height="16" fill="#FFFDF9" />
+                <rect x="21" y="29" width="6" height="11" />
+              </svg>
+            </div>
+            <h3>菁寮米鄉與官田大崎創生</h3>
+            <p>
+              穿梭菁寮老街百年碾米廠、中藥行、鐘錶行與天主堂，再走進官田「村落遊戲島」大崎聚落，看見青年藝農團隊改造古厝廢墟的地方創生行動。
+            </p>
+          </div>
+          <div class="medical-lens">
+            <strong>🩺 醫學人文視角</strong>
+            看見偏鄉與農村聚落的人口結構，串聯社區診所、社區藥局與在地互助網的連續性照護實踐。
+          </div>
+        </article>
+
+        <!-- 6. 文化與土地 -->
+        <article class="element-card reveal">
+          <div>
+            <div class="element-top">
+              <span class="element-badge">06｜文化與土地</span>
+              <svg class="element-svg-icon" viewBox="0 0 48 48" fill="none" stroke="#37694F" stroke-width="2">
+                <path d="M12 36 C12 20, 28 12, 38 12 C38 24, 30 36, 12 36 Z" fill="#E1EFE6" />
+                <path d="M12 36 Q24 24 36 14" />
+              </svg>
+            </div>
+            <h3>四草紅樹林與古瓦綠意再生</h3>
+            <p>
+              划入「台版亞馬遜」四草綠色隧道捕捉天使之吻倒影、觀察招潮蟹與彈塗魚；於大崎體驗「紅瓦綠蕨」或「百年古瓦杯墊」手作，讓百年土地記憶重生。
+            </p>
+          </div>
+          <div class="medical-lens">
+            <strong>🩺 醫學人文視角</strong>
+            在自然濕地與手作溫度中安頓醫療工作者的身心壓力，重拾對土地、生命與醫療志業的溫柔連結。
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 3: TWO-DAY ITINERARY ==================== -->
+  <section class="section" id="itinerary">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">TWO-DAY ITINERARY</div>
+        <h2 class="section-title">二日走讀行程｜老城安平 × 菁寮官田</h2>
+        <p class="section-desc">
+          每梯次為期兩日（不過夜、每日專車往返奇美醫院），兼具深度文史導覽、在地手路宴席、生態巡河與農村工藝體驗。
+        </p>
+      </div>
+
+      <div class="day-tabs" role="tablist" aria-label="二日行程切換">
+        <button type="button" class="day-tab-btn active" role="tab" aria-selected="true" data-day="day1">
+          <span class="d-num">DAY 01｜走進臺南，看見生活</span>
+          <span class="d-title">老城安平・全臺首邑的神級日常</span>
+        </button>
+        <button type="button" class="day-tab-btn" role="tab" aria-selected="false" data-day="day2">
+          <span class="d-num">DAY 02｜從生活出發，重新理解照顧</span>
+          <span class="d-title">菁寮官田・平原的嗜甜日記與反思</span>
+        </button>
+      </div>
+
+      <!-- DAY 1 PANEL -->
+      <div class="day-panel active" id="day1" role="tabpanel">
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-head">
+              <span class="tl-time">08:50 – 09:00</span>
+              <h3 class="tl-title">集合報到｜奇美醫院 第一醫療大樓前方廣場</h3>
+            </div>
+            <p class="tl-desc">09:00–09:30 專車前往中西區，展開府城文化感知之旅。</p>
+          </div>
+
+          <div class="tl-item highlight">
+            <div class="tl-head">
+              <span class="tl-time">09:30 – 11:00</span>
+              <h3 class="tl-title">城市經典｜老派台南的神級日常 × 散步導覽（含導覽點心每人一份）</h3>
+            </div>
+            <p class="tl-desc">
+              深入赤崁樓旁的鎮北坊文化街區，解密清代吳園、日治建築與巷弄磚瓦線索，認識百年廟宇、市場小吃與神明的個性派故事。
+            </p>
+
+            <!-- Interactive 10-Stop Route -->
+            <div class="walk-route-box">
+              <div class="walk-route-title">
+                <span>🚩 鎮北坊十站散步路線（點擊站點查看亮點）</span>
+                <span style="font-weight: 500; color: var(--ink-muted); font-size: 0.78rem;">＊導覽老師保留部分路線彈性</span>
+              </div>
+              <div class="route-stops" id="routeStops">
+                <button type="button" class="route-stop-chip active" data-info="開基靈祐宮：鎮北坊重要玄天上帝信仰據點，見證府城早期軍民聚落發展與黑旗祭典文化。">1. 開基靈祐宮</button>
+                <span class="route-arrow">→</span>
+                <button type="button" class="route-stop-chip" data-info="鴨母寮市場：超過百年歷史的庶民市場，熟食、鮮魚、傳統粿品齊聚，是府城人真實廚房縮影。">2. 鴨母寮市場</button>
+                <span class="route-arrow">→</span>
+                <button type="button" class="route-stop-chip" data-info="大觀音亭暨祀典興濟宮：佛道同祀名剎，興濟宮主祀醫神保生大帝，保留珍貴的清代傳統『藥籤』醫療文化！">3. 大觀音亭暨祀典興濟宮</button>
+                <span class="route-arrow">→</span>
+                <button type="button" class="route-stop-chip" data-info="新東亞旅程：見證老城街廓變遷與舊時代旅社、常民生活空間的歷史肌理。">4. 新東亞旅程</button>
+                <span class="route-arrow">→</span>
+                <button type="button" class="route-stop-chip" data-info="開基玉皇宮：傳說中天公廟的起源重鎮，香火鼎盛，展現臺南人敬天祈福的日常信仰。">5. 開基玉皇宮</button>
+                <span class="route-arrow">→</span>
+                <button type="button" class="route-stop-chip" data-info="北忠街沿線店家：低調卻充滿生命力的老街鋪，藏著在地人才熟門熟路的生活滋味。">6. 北忠街沿線店家</button>
+                <span class="route-arrow">→</span>
+                <button type="button" class="route-stop-chip" data-info="開臺聖地三老爺宮：鎮北坊歷史悠久的王爺信仰廟宇，守護街境平安。">7. 開臺聖地三老爺宮</button>
+                <span class="route-arrow">→</span>
+                <button type="button" class="route-stop-chip" data-info="全臺首邑縣城隍廟：掌管人間善惡與陰陽秩序的信仰中心，匾額『爾來了』發人深省。">8. 全臺首邑縣城隍廟</button>
+                <span class="route-arrow">→</span>
+                <button type="button" class="route-stop-chip" data-info="舊來發餅舖：創立於清末的百年餅舖，黑糖香餅（椪餅）承載府城產婦坐月子與祭祀甜味記憶。">9. 舊來發餅舖</button>
+                <span class="route-arrow">→</span>
+                <button type="button" class="route-stop-chip" data-info="水仔尾開基天后祖廟：昔日德慶溪畔的重要媽祖信仰古廟，串起府城水文與海港記憶。">10. 水仔尾開基天后祖廟</button>
+              </div>
+              <div class="route-spotlight" id="routeSpotlight">
+                開基靈祐宮：鎮北坊重要玄天上帝信仰據點，見證府城早期軍民聚落發展與黑旗祭典文化。
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-item highlight">
+            <div class="tl-head">
+              <span class="tl-time">11:00 – 12:40</span>
+              <h3 class="tl-title">車程 ＆ 午宴｜府城食府（新仁店）古都手路菜</h3>
+            </div>
+            <p class="tl-desc">
+              親臨活生生的臺南飲食文化博物館！揉合紅磚木構宴席空間，品嚐古法辦桌與阿舍手路菜：翡翠蚵羹、古早味魷魚螺肉蒜、臺南擔仔麵與虱目魚料理。
+            </p>
+          </div>
+
+          <div class="tl-item highlight">
+            <div class="tl-head">
+              <span class="tl-time">12:40 – 14:30</span>
+              <h3 class="tl-title">車程 ＆ 四草綠色隧道巡河之旅（遊船體驗）</h3>
+            </div>
+            <p class="tl-desc">
+              12:40–13:30 車程前往四草；13:30–14:30 搭乘竹筏緩緩駛入「台版亞馬遜」百年紅樹林綠廊，捕捉波光粼粼的「天使之吻」倒影，近距離觀察招潮蟹、彈塗魚與濕地水鳥生態。
+            </p>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-head">
+              <span class="tl-time">14:30 – 16:00</span>
+              <h3 class="tl-title">車程 ＆ 穿梭四百年時光：安平老街徒步導覽</h3>
+            </div>
+            <p class="tl-desc">
+              漫步全臺第一街「延平街」，在錯綜紅磚瓦牆間尋找守護家宅的劍獅身影，自由品味安平豆花、現炸蝦餅、蚵捲或百年中藥行改建文創空間。16:00 專車賦歸返回奇美醫院。
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- DAY 2 PANEL -->
+      <div class="day-panel" id="day2" role="tabpanel">
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-head">
+              <span class="tl-time">09:20 – 09:30</span>
+              <h3 class="tl-title">集合報到｜奇美醫院 第一醫療大樓前方廣場</h3>
+            </div>
+            <p class="tl-desc">09:30–10:30 沿縱貫公路穿越嘉南平原稻田，前往後壁菁寮聚落。</p>
+          </div>
+
+          <div class="tl-item highlight">
+            <div class="tl-head">
+              <span class="tl-time">10:30 – 12:30</span>
+              <h3 class="tl-title">米鄉日常｜菁寮老街百年聚落導覽 ＆ 手作紅龜粿 ＋ 碾米體驗</h3>
+            </div>
+            <p class="tl-desc">
+              走訪磚紅與木質調交織的百年老街（百年中藥行、家具店、鐘錶行、天主堂與百年碾米廠），親手將金黃稻穗碾成白米帶回家，並動手揉製祈願「紅龜粿」，理解農村飲食、社區藥局／診所與長輩生活脈絡。
+            </p>
+          </div>
+
+          <div class="tl-item highlight">
+            <div class="tl-head">
+              <span class="tl-time">12:30 – 13:30</span>
+              <h3 class="tl-title">午宴｜俗女餐桌 Buffet 鄉土心靈饗宴</h3>
+            </div>
+            <p class="tl-desc">
+              於俗女村中心享用當地媽媽們以在地旬食入菜的家常小炒與傳統風味 Buffet，在純樸農村氛圍中品味後壁土地的熱情與人情溫度。
+            </p>
+          </div>
+
+          <div class="tl-item highlight">
+            <div class="tl-head">
+              <span class="tl-time">13:30 – 17:00</span>
+              <h3 class="tl-title">官田大崎聚落走讀 ＋ 村落特色 DIY 二擇一 ＆ 360°正念反思</h3>
+            </div>
+            <p class="tl-desc">
+              13:30–14:30 車程前往官田大崎村落創藝基地。14:30–17:00 穿梭充滿童趣與果樹香氣的古厝聚落，體驗村落特色手作二擇一：<strong>「紅瓦綠蕨 DIY」</strong>（在地紅瓦結合綠意植栽）或<strong>「百年古瓦杯墊 DIY」</strong>（回收古瓦永續再生）；並融合正念練習與 360° 醫學人生反思收斂，連結自身專業、職涯、價值與使命。17:00 溫馨賦歸。
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 32px;">
+        <a
+          class="btn btn-download btn-lg"
+          href="./360%C2%B0%E9%86%AB%E5%AD%B8%E4%BA%BA%E7%94%9F%EF%BD%9C%E8%B5%B0%E9%80%B2%E8%87%BA%E5%8D%97%EF%BC%8C%E8%B5%B0%E9%80%B2%E7%94%9F%E6%B4%BB%E2%BE%8F%E7%A8%8Bv4.pdf"
+          download="360°醫學人生｜走進臺南，走進生活⾏程v4.pdf"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+            <polyline points="14 2 14 8 20 8" />
+            <line x1="12" y1="18" x2="12" y2="12" />
+            <polyline points="9 15 12 18 15 15" />
+          </svg>
+          下載完整圖文行程手冊（PDF）
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 4: EVENT PRACTICAL INFO ==================== -->
+  <section class="section section-alt" id="info">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">EVENT INFORMATION</div>
+        <h2 class="section-title">活動集合與聯絡資訊</h2>
+        <p class="section-desc">報名前請詳閱各梯次日期、集合時間與上車地點，以利預留臨床排班與公假申請。</p>
+      </div>
+
+      <div class="info-cards-grid">
+        <div class="info-card reveal">
+          <div class="info-card-label">📅 活動梯次（二日）</div>
+          <h4>共辦理三個梯次</h4>
+          <p>
+            • 115年10月17日(六)–10月18日(日)<br />
+            • 115年11月14日(六)–11月15日(日)<br />
+            • 115年11月21日(六)–11月22日(日)
+          </p>
+        </div>
+
+        <div class="info-card reveal">
+          <div class="info-card-label">👥 參加對象與限額</div>
+          <h4>每梯次限額 35 名</h4>
+          <p>
+            • 西醫UGY（8人）<br />
+            • 西醫PGY（10人）<br />
+            • 醫事職類PGY（9人）<br />
+            • 臨床教師（8人）
+          </p>
+        </div>
+
+        <div class="info-card reveal">
+          <div class="info-card-label">🚌 集合時間與地點</div>
+          <h4>第一醫療大樓前方廣場</h4>
+          <p>
+            • <strong>第一天集合：</strong>08:50 – 09:00<br />
+            • <strong>第二天集合：</strong>09:20 – 09:30<br />
+            <span style="font-size: 0.82rem;">請準時報到上車，逾時不候</span>
+          </p>
+        </div>
+
+        <div class="info-card reveal">
+          <div class="info-card-label">📞 活動聯絡窗口</div>
+          <h4>林盟淦 教學行政管理員</h4>
+          <p>
+            • 電話：06-281-2811 分機 57440<br />
+            • 信箱：<a href="mailto:910632@chimei.org.tw" style="color: var(--terracotta); text-decoration: underline;">910632@chimei.org.tw</a><br />
+            • 主辦：奇美醫院教學部
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 5: ONLINE REGISTRATION & LIVE QUOTA ==================== -->
+  <section class="section" id="register">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">ONLINE REGISTRATION</div>
+        <h2 class="section-title">線上報名表單｜即時名額查詢</h2>
+        <p class="section-desc">
+          請選擇參加梯次與報名身分，系統將於下方看板及「身分下拉式選單」即時顯示各職類剩餘可報名人數。
+        </p>
+      </div>
+
+      <div class="reg-layout">
+        <!-- LEFT: Real-Time Quota Status Panel -->
+        <aside class="quota-panel reveal" aria-live="polite">
+          <div class="quota-panel-header">
+            <h3>各身分即時剩餘名額</h3>
+            <span class="live-badge">即時更新</span>
+          </div>
+          <p class="quota-cohort-note">
+            目前顯示：<strong id="quotaCohortLabel">第一梯次｜115/10/17(六)–10/18(日)</strong><br />
+            <span style="font-size: 0.79rem;">（點擊下方職類卡片可直接帶入報名身分）</span>
+          </p>
+
+          <div class="quota-list" id="quotaList">
+            <!-- Populated dynamically by JS -->
+          </div>
+
+          <div class="quota-summary-total">
+            <span>本梯次總剩餘可報名名額</span>
+            <strong id="totalRemainingBadge">35 / 35 人</strong>
+          </div>
+        </aside>
+
+        <!-- RIGHT: Registration Form -->
+        <div class="form-card reveal">
+          <form id="registrationForm" novalidate>
+            <!-- Block 1: 梯次選擇 -->
+            <div class="form-block">
+              <div class="form-block-title">
+                <span class="step-num">1</span>
+                選擇參加梯次
+              </div>
+              <div class="session-radio-grid" id="sessionRadioGrid">
+                <label class="session-option">
+                  <input type="radio" name="session" value="s1" checked />
+                  <span class="session-card-label">
+                    <span class="s-name">第一梯次</span>
+                    <span class="s-date">115/10/17(六)–10/18(日)</span>
+                    <span class="s-rem" data-session-rem="s1">剩餘 35 名</span>
+                  </span>
+                </label>
+
+                <label class="session-option">
+                  <input type="radio" name="session" value="s2" />
+                  <span class="session-card-label">
+                    <span class="s-name">第二梯次</span>
+                    <span class="s-date">115/11/14(六)–11/15(日)</span>
+                    <span class="s-rem" data-session-rem="s2">剩餘 35 名</span>
+                  </span>
+                </label>
+
+                <label class="session-option">
+                  <input type="radio" name="session" value="s3" />
+                  <span class="session-card-label">
+                    <span class="s-name">第三梯次</span>
+                    <span class="s-date">115/11/21(六)–11/22(日)</span>
+                    <span class="s-rem" data-session-rem="s3">剩餘 35 名</span>
+                  </span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Block 2: 學員／教師基本與院內聯絡資料 -->
+            <div class="form-block">
+              <div class="form-block-title">
+                <span class="step-num">2</span>
+                報名身分與院內基本資料
+              </div>
+
+              <div class="fields-grid">
+                <!-- 身分 (下拉式選單，即時顯示剩下可報名人數) -->
+                <div class="field-group field-full" id="fg-identity">
+                  <label class="field-label" for="identitySelect">
+                    <span>身分<span class="req-star">*</span></span>
+                    <span class="field-hint">選單即時顯示該梯次各身分剩餘名額</span>
+                  </label>
+                  <select class="form-control" id="identitySelect" name="identity" required>
+                    <!-- Dynamically populated with live remaining counts -->
+                  </select>
+                  <span class="error-msg">請選擇尚有名額之報名身分</span>
+                </div>
+
+                <!-- 單位 -->
+                <div class="field-group" id="fg-department">
+                  <label class="field-label" for="departmentInput">
+                    <span>單位<span class="req-star">*</span></span>
+                  </label>
+                  <input class="form-control" type="text" id="departmentInput" name="department" placeholder="例如：教學部、內科部、藥劑部" required />
+                  <span class="error-msg">請填寫服務／受訓單位</span>
+                </div>
+
+                <!-- 職稱 -->
+                <div class="field-group" id="fg-jobTitle">
+                  <label class="field-label" for="jobTitleInput">
+                    <span>職稱<span class="req-star">*</span></span>
+                  </label>
+                  <input class="form-control" type="text" id="jobTitleInput" name="jobTitle" placeholder="例如：實習醫學生、PGY醫師、主治醫師" required />
+                  <span class="error-msg">請填寫職稱</span>
+                </div>
+
+                <!-- 姓名 -->
+                <div class="field-group" id="fg-fullName">
+                  <label class="field-label" for="fullNameInput">
+                    <span>姓名<span class="req-star">*</span></span>
+                  </label>
+                  <input class="form-control" type="text" id="fullNameInput" name="fullName" placeholder="請填寫真實中文姓名" autocomplete="name" required />
+                  <span class="error-msg">請填寫姓名</span>
+                </div>
+
+                <!-- 人事號 -->
+                <div class="field-group" id="fg-staffId">
+                  <label class="field-label" for="staffIdInput">
+                    <span>人事號<span class="req-star">*</span></span>
+                  </label>
+                  <input class="form-control" type="text" id="staffIdInput" name="staffId" placeholder="請輸入院內人事號（如 910632）" required />
+                  <span class="error-msg">請填寫人事號</span>
+                </div>
+
+                <!-- 手機簡碼/分機 -->
+                <div class="field-group" id="fg-phoneExt">
+                  <label class="field-label" for="phoneExtInput">
+                    <span>手機簡碼/分機<span class="req-star">*</span></span>
+                  </label>
+                  <input class="form-control" type="text" id="phoneExtInput" name="phoneExt" placeholder="例如：0912-345678 或 簡碼/分機 57440" required />
+                  <span class="error-msg">請填寫手機號碼、簡碼或分機</span>
+                </div>
+
+                <!-- E-mail -->
+                <div class="field-group" id="fg-email">
+                  <label class="field-label" for="emailInput">
+                    <span>E-mail<span class="req-star">*</span></span>
+                  </label>
+                  <input class="form-control" type="email" id="emailInput" name="email" placeholder="example@chimei.org.tw" autocomplete="email" required />
+                  <span class="error-msg">請填寫有效的 E-mail 信箱</span>
+                </div>
+
+                <!-- 餐食 -->
+                <div class="field-group field-full" id="fg-meal">
+                  <span class="field-label">
+                    <span>餐食需求<span class="req-star">*</span></span>
+                    <span class="field-hint">第一天府城食府午宴、第二天俗女餐桌 Buffet 及導覽點心</span>
+                  </span>
+                  <div class="meal-options">
+                    <label class="meal-option">
+                      <input type="radio" name="meal" value="葷食" checked required />
+                      <span class="meal-card">🍱 葷食（品嚐府城經典手路料理）</span>
+                    </label>
+                    <label class="meal-option">
+                      <input type="radio" name="meal" value="素食" required />
+                      <span class="meal-card">🥬 素食（貼心準備在地蔬食套餐）</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Block 3: 獨立區分「旅責險專用」資料區塊 -->
+            <div class="insurance-zone">
+              <div class="insurance-header">
+                <div class="insurance-title-wrap">
+                  <div class="shield-icon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                      <polyline points="9 12 11 14 15 10" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4>旅責險專用資料區</h4>
+                    <span style="font-size: 0.78rem; color: var(--ink-muted);">獨立保密欄位｜僅供旅遊責任保險投保使用</span>
+                  </div>
+                </div>
+                <span class="insurance-tag">🔒 個資保護專區</span>
+              </div>
+
+              <div class="insurance-notice">
+                本區「出生日期」與「身分證號」<strong>僅供承辦單位（島內散步旅行社）依法辦理活動期間旅遊責任保險投保專用</strong>，教學部與承辦單位均依個人資料保護法嚴格保密，活動結束後依規銷毀，絕不移作其他用途。
+              </div>
+
+              <div class="fields-grid">
+                <!-- 出生日期 (旅責險專用) -->
+                <div class="field-group" id="fg-birthDate">
+                  <label class="field-label" for="birthDateInput">
+                    <span>出生日期（旅責險專用）<span class="req-star">*</span></span>
+                  </label>
+                  <input class="form-control" type="date" id="birthDateInput" name="birthDate" max="2015-12-31" required />
+                  <span class="roc-date-hint" id="rocDateHint"></span>
+                  <span class="error-msg">請選擇出生日期（供旅責險投保核對）</span>
+                </div>
+
+                <!-- 身分證號 (旅責險專用) -->
+                <div class="field-group" id="fg-nationalId">
+                  <label class="field-label" for="nationalIdInput">
+                    <span>身分證號（旅責險專用）<span class="req-star">*</span></span>
+                    <span class="field-hint">支援本國身分證或居留證號</span>
+                  </label>
+                  <div class="id-input-wrap">
+                    <input
+                      class="form-control"
+                      type="password"
+                      id="nationalIdInput"
+                      name="nationalId"
+                      maxlength="10"
+                      placeholder="例如：D123456789"
+                      autocomplete="off"
+                      required
+                    />
+                    <button type="button" class="toggle-mask-btn" id="toggleIdMaskBtn" title="顯示或隱藏身分證號" aria-label="切換顯示身分證號">
+                      <svg id="eyeIcon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                        <circle cx="12" cy="12" r="3" />
+                      </svg>
+                    </button>
+                  </div>
+                  <span class="error-msg" id="nationalIdError">請輸入正確格式之身分證字號或居留證號（共10碼）</span>
+                </div>
+              </div>
+            </div>
+
+            <button type="submit" class="submit-btn" id="submitBtn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                <polyline points="22 4 12 14.01 9 11.01" />
+              </svg>
+              確認送出報名資料
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-title">360°醫學人生｜走進臺南，走進生活</div>
+          <p style="font-size: 0.9rem; opacity: 0.85;">
+            奇美醫院教學部 主辦｜島內散步旅行社股份有限公司（Walk in Taiwan）承辦<br />
+            健康台灣深耕計畫（子計畫 D2-O1-5）｜落實「照顧臺南人一輩子」核心價值
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>集合與交通提醒</h4>
+          <ul>
+            <li>第一天集合：08:50 – 09:00</li>
+            <li>第二天集合：09:20 – 09:30</li>
+            <li>上車地點：第一醫療大樓前方廣場</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>聯絡窗口</h4>
+          <ul>
+            <li>聯絡人：林盟淦 教學行政管理員</li>
+            <li>電話：06-281-2811 分機 57440</li>
+            <li>信箱：<a href="mailto:910632@chimei.org.tw" style="text-decoration: underline;">910632@chimei.org.tw</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 奇美醫療財團法人奇美醫院 教學部 All Rights Reserved.</span>
+        <button type="button" class="admin-trigger-btn" id="openAdminBtn">
+          報名紀錄與名額管理（匯出 CSV）
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== MODAL 1: REGISTRATION SUCCESS RECEIPT ==================== -->
+  <div class="modal-backdrop" id="successModal" role="dialog" aria-modal="true" aria-labelledby="successModalTitle">
+    <div class="modal-box">
+      <button type="button" class="modal-close" data-close-modal="successModal" aria-label="關閉視窗">✕</button>
+      <div style="text-align: center;">
+        <div style="width: 56px; height: 56px; border-radius: 50%; background: var(--mangrove-soft); color: var(--mangrove); display: grid; place-items: center; margin: 0 auto 12px; font-size: 1.6rem;">✓</div>
+        <h3 id="successModalTitle" style="font-family: var(--font-serif); font-size: 1.5rem; color: var(--ink-deep);">報名登記完成！</h3>
+        <p style="font-size: 0.9rem; color: var(--ink-muted); margin-top: 4px;">系統已即時為您保留名額並更新剩餘可報名人數</p>
+      </div>
+
+      <div class="receipt-ticket" id="receiptContent">
+        <!-- Populated dynamically -->
+      </div>
+
+      <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+        <a
+          class="btn btn-download"
+          href="./360%C2%B0%E9%86%AB%E5%AD%B8%E4%BA%BA%E7%94%9F%EF%BD%9C%E8%B5%B0%E9%80%B2%E8%87%BA%E5%8D%97%EF%BC%8C%E8%B5%B0%E9%80%B2%E7%94%9F%E6%B4%BB%E2%BE%8F%E7%A8%8Bv4.pdf"
+          download="360°醫學人生｜走進臺南，走進生活⾏程v4.pdf"
+        >
+          下載活動行程 PDF
+        </a>
+        <button type="button" class="btn btn-primary" data-close-modal="successModal">完成並返回頁面</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== MODAL 2: ADMIN / CSV EXPORT DRAWER ==================== -->
+  <div class="modal-backdrop" id="adminModal" role="dialog" aria-modal="true" aria-labelledby="adminModalTitle">
+    <div class="modal-box modal-wide">
+      <button type="button" class="modal-close" data-close-modal="adminModal" aria-label="關閉視窗">✕</button>
+      <h3 id="adminModalTitle" style="font-family: var(--font-serif); font-size: 1.35rem; color: var(--ink-deep); margin-bottom: 6px;">
+        報名名單與即時名額管理（本機儲存預覽）
+      </h3>
+      <p style="font-size: 0.86rem; color: var(--ink-muted);">
+        可檢視目前已登記之報名資料、匯出含旅責險欄位之 Excel (UTF-8 CSV) 報表，或清除測試資料恢復初始名額（西醫UGY 8人、西醫PGY 10人、醫事職類PGY 9人、臨床教師 8人）。
+      </p>
+
+      <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px;">
+        <button type="button" class="btn btn-primary" id="exportCsvBtn" style="padding: 8px 16px; font-size: 0.85rem;">
+          匯出報名名單 CSV
+        </button>
+        <button type="button" class="btn btn-download" id="resetQuotaBtn" style="padding: 8px 16px; font-size: 0.85rem;">
+          重置測試報名紀錄（恢復滿額）
+        </button>
+      </div>
+
+      <div class="admin-table-wrap">
+        <table class="admin-table">
+          <thead>
+            <tr>
+              <th>報名編號</th>
+              <th>梯次</th>
+              <th>身分</th>
+              <th>單位 / 職稱</th>
+              <th>姓名（人事號）</th>
+              <th>聯絡簡碼/分機</th>
+              <th>餐食</th>
+              <th>旅責險資料</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody id="adminTableBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== MODAL 3: POSTER LIGHTBOX ==================== -->
+  <div class="modal-backdrop" id="posterModal" role="dialog" aria-modal="true" aria-label="活動海報放大檢視">
+    <div class="modal-box modal-wide" style="padding: 16px; background: #14262C;">
+      <button type="button" class="modal-close" data-close-modal="posterModal" aria-label="關閉海報">✕</button>
+      <img
+        src="./360%C2%B0%E9%86%AB%E5%AD%B8%E4%BA%BA%E7%94%9F%EF%BD%9C%E8%B5%B0%E9%80%B2%E8%87%BA%E5%8D%97%EF%BC%8C%E8%B5%B0%E9%80%B2%E7%94%9F%E6%B4%BBv5.png"
+        alt="360°醫學人生｜走進臺南，走進生活 完整主視覺海報"
+        style="border-radius: 12px; width: 100%;"
+      />
+    </div>
+  </div>
+
+  <!-- ==================== APPLICATION SCRIPT ==================== -->
+  <script>
+    (function () {
+      'use strict';
+
+      // Optional Google Apps Script Web App endpoint (if connected in production later)
+      const GAS_ENDPOINT = '';
+      const STORAGE_KEY = 'chimei_360_tainan_registrations_v1';
+
+      // Sessions Configuration
+      const SESSIONS = {
+        s1: { id: 's1', name: '第一梯次', date: '115年10月17日(六)-10月18日(日)', shortDate: '115/10/17(六)–10/18(日)' },
+        s2: { id: 's2', name: '第二梯次', date: '115年11月14日(六)-11月15日(日)', shortDate: '115/11/14(六)–11/15(日)' },
+        s3: { id: 's3', name: '第三梯次', date: '115年11月21日(六)-11月22日(日)', shortDate: '115/11/21(六)–11/22(日)' }
+      };
+
+      // Quota Limits per Identity
+      const ROLES = [
+        { id: '西醫UGY', label: '西醫UGY', max: 8 },
+        { id: '西醫PGY', label: '西醫PGY', max: 10 },
+        { id: '醫事職類PGY', label: '醫事職類PGY', max: 9 },
+        { id: '臨床教師', label: '臨床教師', max: 8 }
+      ];
+
+      // 360° Compass Data (from PGY 360°醫學人生_簽呈.docx)
+      const COMPASS_DATA = {
+        profession: {
+          tag: '360° 羅盤向度 01｜PROFESSION',
+          title: '專業（Profession）— 看見症狀背後的生活脈絡',
+          text: '當衛教不再只是制式叮嚀「少糖少鹽」，而是理解阿公阿嬤清晨在鴨母寮市場買什麼菜、節慶為何一定要吃一口紅龜粿，臨床專業才能真正貼近病人的日常處境。'
+        },
+        career: {
+          tag: '360° 羅盤向度 02｜CAREER',
+          title: '職涯（Career）— 串聯醫院、社區診所與藥局的連續照護',
+          text: '走出急性醫療院所，看見社區診所、社區藥局與地方聚落的照護生態系，與跨職類夥伴（西醫、藥事、護理與各醫事職類）建立長遠的合作視野。'
+        },
+        value: {
+          tag: '360° 羅盤向度 03｜VALUE',
+          title: '價值（Value）— 在自然律動與古瓦再生中安頓自我',
+          text: '在四草綠色隧道的竹筏微風與大崎百年古瓦手作裡放慢腳步，透過正念覺察練習照顧身為醫療工作者的自己，找回內在平衡與生活美學。'
+        },
+        mission: {
+          tag: '360° 羅盤向度 04｜MISSION',
+          title: '使命（Mission）— 落實「照顧臺南人一輩子」的溫度',
+          text: '因為真正走進過臺南的土地、信仰與日常，我們更能以全人照護的同理心陪伴每一位走進診間與病房的鄉親，實踐有溫度的醫學人生。'
+        }
+      };
+
+      // Load registrations from localStorage
+      function loadRegistrations() {
+        try {
+          const raw = localStorage.getItem(STORAGE_KEY);
+          const parsed = raw ? JSON.parse(raw) : [];
+          return Array.isArray(parsed) ? parsed : [];
+        } catch (e) {
+          return [];
+        }
+      }
+
+      function saveRegistrations(list) {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
+      }
+
+      // Compute remaining quota for a session and role
+      function getQuotaCounts(sessionId) {
+        const regs = loadRegistrations();
+        const counts = {};
+        let totalRemaining = 0;
+        let totalMax = 0;
+
+        ROLES.forEach(function (role) {
+          const used = regs.filter(function (r) {
+            return r.session === sessionId && r.identity === role.id;
+          }).length;
+          const remaining = Math.max(0, role.max - used);
+          counts[role.id] = {
+            max: role.max,
+            used: used,
+            remaining: remaining
+          };
+          totalRemaining += remaining;
+          totalMax += role.max;
+        });
+
+        return { byRole: counts, totalRemaining: totalRemaining, totalMax: totalMax };
+      }
+
+      function getSelectedSession() {
+        const checked = document.querySelector('input[name="session"]:checked');
+        return checked ? checked.value : 's1';
+      }
+
+      // Render Live Quota Dashboard + Dropdown Options + Session Badges
+      function renderQuotas() {
+        const currentSession = getSelectedSession();
+        const sessionMeta = SESSIONS[currentSession];
+        const quotaData = getQuotaCounts(currentSession);
+        const identitySelect = document.getElementById('identitySelect');
+        const previousVal = identitySelect.value;
+
+        // 1. Update Session Radio Remaining Badges across all 3 sessions
+        Object.keys(SESSIONS).forEach(function (sid) {
+          const q = getQuotaCounts(sid);
+          const badge = document.querySelector('[data-session-rem="' + sid + '"]');
+          if (badge) {
+            badge.textContent = q.totalRemaining > 0 ? ('剩餘 ' + q.totalRemaining + ' 名') : '已額滿';
+            badge.style.background = q.totalRemaining > 0 ? 'rgba(55, 105, 79, 0.12)' : 'rgba(173, 59, 59, 0.14)';
+            badge.style.color = q.totalRemaining > 0 ? '#37694F' : '#AD3B3B';
+          }
+        });
+
+        // 2. Update Left Panel Header & Total
+        document.getElementById('quotaCohortLabel').textContent = sessionMeta.name + '｜' + sessionMeta.shortDate;
+        document.getElementById('totalRemainingBadge').textContent = quotaData.totalRemaining + ' / ' + quotaData.totalMax + ' 人';
+
+        // 3. Update Identity <select> Dropdown Options (即時顯示各身分剩下可報名人數)
+        identitySelect.innerHTML = '';
+        const placeholderOpt = document.createElement('option');
+        placeholderOpt.value = '';
+        placeholderOpt.textContent = '請選擇報名身分（即時顯示剩餘可報名人數）';
+        identitySelect.appendChild(placeholderOpt);
+
+        ROLES.forEach(function (role) {
+          const info = quotaData.byRole[role.id];
+          const opt = document.createElement('option');
+          opt.value = role.id;
+          if (info.remaining <= 0) {
+            opt.textContent = role.label + '（已額滿｜剩餘 0 人／限額 ' + role.max + ' 人）';
+            opt.disabled = true;
+          } else {
+            opt.textContent = role.label + '（剩餘 ' + info.remaining + ' 人／限額 ' + info.max + ' 人）';
+          }
+          identitySelect.appendChild(opt);
+        });
+
+        // Restore selection if still valid and has quota
+        if (previousVal && quotaData.byRole[previousVal] && quotaData.byRole[previousVal].remaining > 0) {
+          identitySelect.value = previousVal;
+        }
+
+        // 4. Render Quota Visual List Cards
+        const quotaListEl = document.getElementById('quotaList');
+        quotaListEl.innerHTML = '';
+        ROLES.forEach(function (role) {
+          const info = quotaData.byRole[role.id];
+          const pctRemaining = Math.round((info.remaining / info.max) * 100);
+          const item = document.createElement('div');
+          let cls = 'quota-item';
+          if (info.remaining === 0) cls += ' full';
+          else if (info.remaining <= 2) cls += ' low';
+          if (identitySelect.value === role.id) cls += ' selected';
+          item.className = cls;
+
+          item.innerHTML =
+            '<div class="quota-row-top">' +
+              '<span class="quota-role-name">' + role.label + ' <small style="font-weight:400; color:#5C6B6E;">(限額 ' + role.max + ' 人)</small></span>' +
+              '<span class="quota-numbers">' + (info.remaining > 0 ? ('剩餘 ' + info.remaining + ' 人') : '已額滿 (0人)') + '</span>' +
+            '</div>' +
+            '<div class="quota-bar"><div class="quota-bar-fill" style="width:' + pctRemaining + '%;"></div></div>';
+
+          item.addEventListener('click', function () {
+            if (info.remaining > 0) {
+              identitySelect.value = role.id;
+              identitySelect.dispatchEvent(new Event('change'));
+              clearFieldError('fg-identity');
+            }
+          });
+
+          quotaListEl.appendChild(item);
+        });
+      }
+
+      // Taiwan National ID / New & Legacy UI Number Validation
+      function isValidTaiwanIdOrArc(str) {
+        const v = (str || '').trim().toUpperCase();
+        const letterMap = {
+          A: 10, B: 11, C: 12, D: 13, E: 14, F: 15, G: 16, H: 17, I: 34,
+          J: 18, K: 19, L: 20, M: 21, N: 22, O: 35, P: 23, Q: 24, R: 25,
+          S: 26, T: 27, U: 28, V: 29, W: 32, X: 30, Y: 31, Z: 33
+        };
+        // Standard National ID or New-format ARC: [A-Z][1289]\d{8}
+        if (/^[A-Z][1289]\d{8}$/.test(v)) {
+          const code = letterMap[v[0]];
+          let sum = Math.floor(code / 10) + (code % 10) * 9;
+          const weights = [8, 7, 6, 5, 4, 3, 2, 1, 1];
+          for (let i = 0; i < 9; i++) {
+            sum += parseInt(v[i + 1], 10) * weights[i];
+          }
+          return sum % 10 === 0;
+        }
+        // Legacy ARC format: [A-Z][A-D]\d{8}
+        if (/^[A-Z][A-D]\d{8}$/.test(v)) {
+          const c1 = letterMap[v[0]];
+          const c2 = letterMap[v[1]] % 10;
+          let sum = Math.floor(c1 / 10) + (c1 % 10) * 9 + c2 * 8;
+          const weights = [7, 6, 5, 4, 3, 2, 1, 1];
+          for (let i = 0; i < 8; i++) {
+            sum += parseInt(v[i + 2], 10) * weights[i];
+          }
+          return sum % 10 === 0;
+        }
+        return false;
+      }
+
+      function maskNationalId(id) {
+        if (!id || id.length < 7) return id;
+        return id.slice(0, 3) + '****' + id.slice(-3);
+      }
+
+      function setFieldError(groupId, msg) {
+        const el = document.getElementById(groupId);
+        if (!el) return;
+        el.classList.add('has-error');
+        const ctrl = el.querySelector('.form-control');
+        if (ctrl) ctrl.classList.add('invalid');
+        if (msg) {
+          const errSpan = el.querySelector('.error-msg');
+          if (errSpan) errSpan.textContent = msg;
+        }
+      }
+
+      function clearFieldError(groupId) {
+        const el = document.getElementById(groupId);
+        if (!el) return;
+        el.classList.remove('has-error');
+        const ctrl = el.querySelector('.form-control');
+        if (ctrl) ctrl.classList.remove('invalid');
+      }
+
+      // Header sticky shadow & mobile menu
+      const siteHeader = document.getElementById('siteHeader');
+      window.addEventListener('scroll', function () {
+        siteHeader.classList.toggle('scrolled', window.scrollY > 16);
+      }, { passive: true });
+
+      const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+      const mobileDrawer = document.getElementById('mobileDrawer');
+      mobileMenuBtn.addEventListener('click', function () {
+        const isOpen = mobileDrawer.classList.toggle('open');
+        mobileMenuBtn.setAttribute('aria-expanded', String(isOpen));
+      });
+      mobileDrawer.querySelectorAll('a').forEach(function (link) {
+        link.addEventListener('click', function () {
+          mobileDrawer.classList.remove('open');
+          mobileMenuBtn.setAttribute('aria-expanded', 'false');
+        });
+      });
+
+      // Hero Cohort Pills shortcut
+      document.querySelectorAll('[data-pick-session]').forEach(function (pill) {
+        pill.addEventListener('click', function () {
+          const targetSession = pill.getAttribute('data-pick-session');
+          const radio = document.querySelector('input[name="session"][value="' + targetSession + '"]');
+          if (radio) {
+            radio.checked = true;
+            renderQuotas();
+          }
+          document.getElementById('register').scrollIntoView({ behavior: 'smooth' });
+        });
+      });
+
+      // Interactive 360° Compass
+      document.querySelectorAll('.compass-node-btn').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          document.querySelectorAll('.compass-node-btn').forEach(function (b) { b.classList.remove('active'); });
+          btn.classList.add('active');
+          const angle = btn.getAttribute('data-angle');
+          const key = btn.getAttribute('data-key');
+          document.getElementById('compassNeedle').style.transform = 'rotate(' + angle + 'deg)';
+          const d = COMPASS_DATA[key];
+          if (d) {
+            document.getElementById('compassTag').textContent = d.tag;
+            document.getElementById('compassTitle').textContent = d.title;
+            document.getElementById('compassText').textContent = d.text;
+          }
+        });
+      });
+
+      // Day 1 / Day 2 Tabs
+      document.querySelectorAll('.day-tab-btn').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          const target = btn.getAttribute('data-day');
+          document.querySelectorAll('.day-tab-btn').forEach(function (b) {
+            b.classList.toggle('active', b === btn);
+            b.setAttribute('aria-selected', String(b === btn));
+          });
+          document.querySelectorAll('.day-panel').forEach(function (p) {
+            p.classList.toggle('active', p.id === target);
+          });
+        });
+      });
+
+      // Interactive 10-Stop Walking Route Chips
+      document.querySelectorAll('.route-stop-chip').forEach(function (chip) {
+        chip.addEventListener('click', function () {
+          document.querySelectorAll('.route-stop-chip').forEach(function (c) { c.classList.remove('active'); });
+          chip.classList.add('active');
+          document.getElementById('routeSpotlight').textContent = chip.getAttribute('data-info');
+        });
+      });
+
+      // Session radio & Identity select listeners
+      document.querySelectorAll('input[name="session"]').forEach(function (r) {
+        r.addEventListener('change', renderQuotas);
+      });
+      document.getElementById('identitySelect').addEventListener('change', function () {
+        clearFieldError('fg-identity');
+        renderQuotas();
+      });
+
+      // ROC Year helper on Birth Date input
+      const birthDateInput = document.getElementById('birthDateInput');
+      const rocDateHint = document.getElementById('rocDateHint');
+      birthDateInput.addEventListener('change', function () {
+        clearFieldError('fg-birthDate');
+        if (!birthDateInput.value) {
+          rocDateHint.textContent = '';
+          return;
+        }
+        const parts = birthDateInput.value.split('-');
+        const year = parseInt(parts[0], 10);
+        const rocYear = year - 1911;
+        if (rocYear > 0) {
+          rocDateHint.textContent = '✓ 對應民國出生日期：民國 ' + rocYear + ' 年 ' + parts[1] + ' 月 ' + parts[2] + ' 日';
+        } else {
+          rocDateHint.textContent = '';
+        }
+      });
+
+      // National ID Uppercase & Mask Toggle
+      const nationalIdInput = document.getElementById('nationalIdInput');
+      const toggleIdMaskBtn = document.getElementById('toggleIdMaskBtn');
+      nationalIdInput.addEventListener('input', function () {
+        nationalIdInput.value = nationalIdInput.value.toUpperCase();
+        clearFieldError('fg-nationalId');
+      });
+      toggleIdMaskBtn.addEventListener('click', function () {
+        const isHidden = nationalIdInput.type === 'password';
+        nationalIdInput.type = isHidden ? 'text' : 'password';
+      });
+
+      // Clear validation errors on input
+      ['departmentInput', 'jobTitleInput', 'fullNameInput', 'staffIdInput', 'phoneExtInput', 'emailInput'].forEach(function (id) {
+        const el = document.getElementById(id);
+        if (el) {
+          el.addEventListener('input', function () {
+            const parent = el.closest('.field-group');
+            if (parent) clearFieldError(parent.id);
+          });
+        }
+      });
+
+      // Form Submission
+      document.getElementById('registrationForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        const session = getSelectedSession();
+        const identity = document.getElementById('identitySelect').value;
+        const department = document.getElementById('departmentInput').value.trim();
+        const jobTitle = document.getElementById('jobTitleInput').value.trim();
+        const fullName = document.getElementById('fullNameInput').value.trim();
+        const staffId = document.getElementById('staffIdInput').value.trim();
+        const phoneExt = document.getElementById('phoneExtInput').value.trim();
+        const email = document.getElementById('emailInput').value.trim();
+        const birthDate = birthDateInput.value;
+        const nationalId = nationalIdInput.value.trim().toUpperCase();
+        const mealChecked = document.querySelector('input[name="meal"]:checked');
+        const meal = mealChecked ? mealChecked.value : '葷食';
+
+        let hasErr = false;
+        const quotaData = getQuotaCounts(session);
+
+        if (!identity || !quotaData.byRole[identity] || quotaData.byRole[identity].remaining <= 0) {
+          setFieldError('fg-identity', '請選擇尚有剩餘名額之報名身分');
+          hasErr = true;
+        }
+        if (!department) { setFieldError('fg-department'); hasErr = true; }
+        if (!jobTitle) { setFieldError('fg-jobTitle'); hasErr = true; }
+        if (!fullName) { setFieldError('fg-fullName'); hasErr = true; }
+        if (!staffId) { setFieldError('fg-staffId'); hasErr = true; }
+        if (!phoneExt) { setFieldError('fg-phoneExt'); hasErr = true; }
+        if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+          setFieldError('fg-email', '請填寫正確的 E-mail 格式');
+          hasErr = true;
+        }
+        if (!birthDate) {
+          setFieldError('fg-birthDate');
+          hasErr = true;
+        }
+        if (!isValidTaiwanIdOrArc(nationalId)) {
+          setFieldError('fg-nationalId', '身分證號格式檢核未通過，請確認英文字母與10碼數字是否正確');
+          hasErr = true;
+        }
+
+        // Prevent duplicate registration in the same session by staffId or nationalId
+        const existingRegs = loadRegistrations();
+        const duplicate = existingRegs.find(function (r) {
+          return r.session === session && (r.staffId === staffId || r.nationalId === nationalId);
+        });
+        if (!hasErr && duplicate) {
+          setFieldError('fg-staffId', '此人事號或身分證號已報名過本梯次，請勿重複報名');
+          hasErr = true;
+        }
+
+        if (hasErr) {
+          const firstErr = document.querySelector('.field-group.has-error');
+          if (firstErr) firstErr.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          return;
+        }
+
+        const regNo = 'CM360-' + Date.now().toString().slice(-6);
+        const record = {
+          regNo: regNo,
+          createdAt: new Date().toLocaleString('zh-TW', { hour12: false }),
+          session: session,
+          sessionLabel: SESSIONS[session].name + ' (' + SESSIONS[session].date + ')',
+          identity: identity,
+          department: department,
+          jobTitle: jobTitle,
+          fullName: fullName,
+          staffId: staffId,
+          phoneExt: phoneExt,
+          email: email,
+          meal: meal,
+          birthDate: birthDate,
+          nationalId: nationalId
+        };
+
+        existingRegs.push(record);
+        saveRegistrations(existingRegs);
+
+        // Optional async sync to Google Apps Script if configured
+        if (GAS_ENDPOINT) {
+          fetch(GAS_ENDPOINT, {
+            method: 'POST',
+            mode: 'no-cors',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(record)
+          }).catch(function () {});
+        }
+
+        // Refresh Live Quota immediately
+        renderQuotas();
+
+        // Populate & Open Confirmation Receipt Modal
+        const updatedRoleQuota = getQuotaCounts(session).byRole[identity];
+        document.getElementById('receiptContent').innerHTML =
+          '<div class="receipt-row"><span>報名序號</span><strong>' + record.regNo + '</strong></div>' +
+          '<div class="receipt-row"><span>參加梯次</span><strong>' + SESSIONS[session].name + '｜' + SESSIONS[session].shortDate + '</strong></div>' +
+          '<div class="receipt-row"><span>報名身分</span><strong>' + record.identity + '（報名後剩餘 ' + updatedRoleQuota.remaining + ' 名）</strong></div>' +
+          '<div class="receipt-row"><span>單位／職稱</span><span>' + escapeHtml(record.department) + ' ／ ' + escapeHtml(record.jobTitle) + '</span></div>' +
+          '<div class="receipt-row"><span>姓名（人事號）</span><span>' + escapeHtml(record.fullName) + '（' + escapeHtml(record.staffId) + '）</span></div>' +
+          '<div class="receipt-row"><span>餐食需求</span><span>' + record.meal + '</span></div>' +
+          '<div class="receipt-row"><span>旅責險投保資料</span><span>生日 ' + record.birthDate + ' ／ 證號 ' + maskNationalId(record.nationalId) + '</span></div>' +
+          '<div class="receipt-row"><span>集合時間</span><span>Day1 08:50-09:00 ｜ Day2 09:20-09:30</span></div>' +
+          '<div class="receipt-row"><span>上車地點</span><strong>第一醫療大樓前方廣場</strong></div>';
+
+        openModal('successModal');
+
+        // Reset form while keeping current session
+        document.getElementById('registrationForm').reset();
+        const sessionRadio = document.querySelector('input[name="session"][value="' + session + '"]');
+        if (sessionRadio) sessionRadio.checked = true;
+        rocDateHint.textContent = '';
+        nationalIdInput.type = 'password';
+        renderQuotas();
+      });
+
+      function escapeHtml(str) {
+        return String(str)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;');
+      }
+
+      // Modal Helpers
+      function openModal(id) {
+        document.getElementById(id).classList.add('open');
+      }
+      function closeModal(id) {
+        document.getElementById(id).classList.remove('open');
+      }
+      document.querySelectorAll('[data-close-modal]').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          closeModal(btn.getAttribute('data-close-modal'));
+        });
+      });
+      document.querySelectorAll('.modal-backdrop').forEach(function (backdrop) {
+        backdrop.addEventListener('click', function (e) {
+          if (e.target === backdrop) backdrop.classList.remove('open');
+        });
+      });
+
+      // Poster Lightbox
+      document.getElementById('posterImg').addEventListener('click', function () {
+        openModal('posterModal');
+      });
+
+      // Admin Drawer & CSV Export
+      function renderAdminTable() {
+        const regs = loadRegistrations();
+        const tbody = document.getElementById('adminTableBody');
+        if (regs.length === 0) {
+          tbody.innerHTML = '<tr><td colspan="9" style="text-align:center; padding:22px; color:#5C6B6E;">目前尚無報名紀錄（各身分皆為滿額可報名狀態）</td></tr>';
+          return;
+        }
+        tbody.innerHTML = regs.map(function (r, idx) {
+          return '<tr>' +
+            '<td>' + escapeHtml(r.regNo) + '</td>' +
+            '<td>' + escapeHtml(SESSIONS[r.session] ? SESSIONS[r.session].name : r.session) + '</td>' +
+            '<td><strong>' + escapeHtml(r.identity) + '</strong></td>' +
+            '<td>' + escapeHtml(r.department) + ' / ' + escapeHtml(r.jobTitle) + '</td>' +
+            '<td>' + escapeHtml(r.fullName) + ' (' + escapeHtml(r.staffId) + ')</td>' +
+            '<td>' + escapeHtml(r.phoneExt) + '</td>' +
+            '<td>' + escapeHtml(r.meal) + '</td>' +
+            '<td>' + escapeHtml(r.birthDate) + ' / ' + escapeHtml(maskNationalId(r.nationalId)) + '</td>' +
+            '<td><button type="button" data-del-idx="' + idx + '" style="color:#AD3B3B; background:none; border:1px solid #AD3B3B; border-radius:6px; padding:3px 8px; cursor:pointer; font-size:0.78rem;">取消釋出名額</button></td>' +
+          '</tr>';
+        }).join('');
+
+        tbody.querySelectorAll('[data-del-idx]').forEach(function (delBtn) {
+          delBtn.addEventListener('click', function () {
+            const index = parseInt(delBtn.getAttribute('data-del-idx'), 10);
+            const list = loadRegistrations();
+            list.splice(index, 1);
+            saveRegistrations(list);
+            renderQuotas();
+            renderAdminTable();
+          });
+        });
+      }
+
+      document.getElementById('openAdminBtn').addEventListener('click', function () {
+        renderAdminTable();
+        openModal('adminModal');
+      });
+
+      document.getElementById('resetQuotaBtn').addEventListener('click', function () {
+        localStorage.removeItem(STORAGE_KEY);
+        renderQuotas();
+        renderAdminTable();
+      });
+
+      document.getElementById('exportCsvBtn').addEventListener('click', function () {
+        const regs = loadRegistrations();
+        const headers = ['報名編號', '報名時間', '參加梯次', '身分', '單位', '姓名', '人事號', '職稱', '手機簡碼/分機', 'E-mail', '餐食', '出生日期(旅責險專用)', '身分證號(旅責險專用)'];
+        const rows = regs.map(function (r) {
+          return [
+            r.regNo, r.createdAt, r.sessionLabel, r.identity, r.department,
+            r.fullName, r.staffId, r.jobTitle, r.phoneExt, r.email,
+            r.meal, r.birthDate, r.nationalId
+          ].map(function (cell) {
+            return '"' + String(cell || '').replace(/"/g, '""') + '"';
+          }).join(',');
+        });
+        const csvContent = '\uFEFF' + headers.join(',') + '\n' + rows.join('\n');
+        const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = '360度醫學人生_報名名單.csv';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      });
+
+      // Cross-tab real-time quota sync
+      window.addEventListener('storage', function (e) {
+        if (e.key === STORAGE_KEY) {
+          renderQuotas();
+        }
+      });
+
+      // Scroll-triggered reveal observer
+      const revealEls = document.querySelectorAll('.reveal');
+      if ('IntersectionObserver' in window) {
+        const io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              io.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.12 });
+        revealEls.forEach(function (el) { io.observe(el); });
+      } else {
+        revealEls.forEach(function (el) { el.classList.add('visible'); });
+      }
+
+      // Initialize quotas on load
+      renderQuotas();
+    })();
+  </script>
+</body>
+</html>
